@@ -1,0 +1,2 @@
+rootProject.name = "All_In_One"
+include ':app'
