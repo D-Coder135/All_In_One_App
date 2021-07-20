@@ -44,11 +44,9 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="151dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-
-        android:layout_marginEnd="115dp"
-        android:layout_marginBottom="119dp"
-        android:background="#FF5722"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button"
+        android:layout_marginBottom="117dp"
         android:text="Continue" />
 </RelativeLayout>
