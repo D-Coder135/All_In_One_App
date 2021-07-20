@@ -29,7 +29,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="295dp"
         android:background="@drawable/email_login_button"
-        android:text="Email Login" />
+        android:text="Email Login"
+        android:textSize="17sp" />
 
     <Button
         android:id="@+id/button7"
