@@ -9,12 +9,21 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="269dp"
-        android:layout_height="211dp"
+        android:layout_width="248dp"
+        android:layout_height="171dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="192dp"
-        android:layout_marginEnd="73dp"
+        android:layout_marginTop="246dp"
+        android:layout_marginEnd="81dp"
         app:srcCompat="@drawable/pic" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="247dp"
+        android:text="TextView" />
 </RelativeLayout>
