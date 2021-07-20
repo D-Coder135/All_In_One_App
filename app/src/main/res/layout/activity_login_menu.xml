@@ -14,10 +14,11 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/offline_button"
         android:layout_marginTop="197dp"
         android:layout_marginEnd="95dp"
-        android:text="Offline Login" />
+        android:background="@drawable/offline_button"
+        android:text="Offline Login"
+        android:textColor="#F1E9E9" />
 
     <Button
         android:id="@+id/button6"
