@@ -34,14 +34,15 @@
         android:text="Welcome To The All In One App!"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-        android:textColor="#020E4C"
+        android:textColor="#03136C"
         android:textSize="32sp"
         android:textStyle="bold|italic"
         android:typeface="monospace" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="151dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
