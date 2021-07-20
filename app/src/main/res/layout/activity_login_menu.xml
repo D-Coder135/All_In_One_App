@@ -55,7 +55,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="177dp"
-        android:text="Button" />
+        android:text="OTP LOGIN" />
 
     <TextView
         android:id="@+id/textView2"
