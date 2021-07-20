@@ -41,7 +41,7 @@
 
     <Button
         android:id="@+id/button2"
-        style="@android:style/Widget.Material.Button"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="151dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
