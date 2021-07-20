@@ -44,6 +44,7 @@
         android:layout_marginBottom="284dp"
         android:background="@drawable/gmail_login_button"
         android:text="GMAIL Login"
+        android:textColor="#EFE9E9"
         android:textSize="17sp"
         android:textStyle="bold" />
 
