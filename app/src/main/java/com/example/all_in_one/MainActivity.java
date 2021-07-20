@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         imageView = findViewById(R.id.imageView3);
         button = findViewById(R.id.button2);
 
-        YoYo.with(Techniques.StandUp).duration(1500).repeat(0).playOn(imageView);
-        YoYo.with(Techniques.SlideInLeft).duration(2000).repeat(0).playOn(textView);
+        YoYo.with(Techniques.SlideInDown).duration(2000).repeat(0).playOn(imageView);
+        YoYo.with(Techniques.SlideInLeft).duration(3000).repeat(0).playOn(textView);
     }
 }
