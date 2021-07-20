@@ -53,9 +53,11 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="10dp"
         android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Choose How You Want To Login =>"
         android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#012B95"
-        android:textSize="32sp"
+        android:textSize="33sp"
         android:textStyle="bold" />
 </RelativeLayout>
