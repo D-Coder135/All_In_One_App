@@ -14,7 +14,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="201dp"
+        android:layout_marginTop="143dp"
         android:layout_marginEnd="74dp"
         app:srcCompat="@drawable/pic" />
 
@@ -26,9 +26,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="202dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="243dp"
         android:fontFamily="sans-serif-smallcaps"
         android:lineSpacingExtra="8sp"
         android:text="Welcome To The All In One App!"
