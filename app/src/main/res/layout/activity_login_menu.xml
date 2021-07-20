@@ -30,6 +30,7 @@
         android:layout_marginTop="295dp"
         android:background="@drawable/email_login_button"
         android:text="Email Login"
+        android:textColor="#1E1D1D"
         android:textSize="17sp" />
 
     <Button
