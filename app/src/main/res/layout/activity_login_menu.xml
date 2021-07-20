@@ -18,7 +18,8 @@
         android:layout_marginEnd="95dp"
         android:background="@drawable/offline_button"
         android:text="Offline Login"
-        android:textColor="#F1E9E9" />
+        android:textColor="#F1E9E9"
+        android:textSize="17sp" />
 
     <Button
         android:id="@+id/button6"
