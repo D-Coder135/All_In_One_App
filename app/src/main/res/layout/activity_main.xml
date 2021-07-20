@@ -9,22 +9,29 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="248dp"
-        android:layout_height="171dp"
+        android:layout_width="253dp"
+        android:layout_height="216dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="246dp"
-        android:layout_marginEnd="81dp"
+        android:layout_marginTop="201dp"
+        android:layout_marginEnd="74dp"
         app:srcCompat="@drawable/pic" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="378dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="247dp"
-        android:text="Welcome to the All In One App!"
-        android:textColor="#171616" />
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="191dp"
+        android:text="Welcome To The All In One App!"
+        android:textAlignment="center"
+        android:textColor="#171616"
+        android:textSize="32sp"
+        android:textStyle="bold|italic" />
 </RelativeLayout>
