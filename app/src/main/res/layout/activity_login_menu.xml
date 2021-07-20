@@ -9,13 +9,14 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="217dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="197dp"
-        android:layout_marginEnd="162dp"
-        android:text="Button" />
+        android:layout_marginEnd="95dp"
+        android:text="Offline Login" />
 
     <Button
         android:id="@+id/button6"
