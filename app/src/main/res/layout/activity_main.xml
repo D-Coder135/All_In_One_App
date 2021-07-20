@@ -26,12 +26,21 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="12dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="191dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="203dp"
         android:text="Welcome To The All In One App!"
         android:textAlignment="center"
         android:textColor="#171616"
         android:textSize="32sp"
         android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="117dp"
+        android:text="Button" />
 </RelativeLayout>
