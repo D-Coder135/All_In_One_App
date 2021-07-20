@@ -16,7 +16,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="197dp"
         android:layout_marginEnd="95dp"
-        android:background="@drawable/offline_button"
+        android:background="@drawable/offline_login_button"
         android:text="Offline Login"
         android:textColor="#F1E9E9"
         android:textSize="17sp" />
