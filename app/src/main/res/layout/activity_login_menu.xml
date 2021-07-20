@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="158dp"
-        android:layout_marginEnd="156dp"
+        android:layout_marginTop="197dp"
+        android:layout_marginEnd="162dp"
         android:text="Button" />
 
     <Button
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="268dp"
+        android:layout_marginTop="295dp"
         android:text="Button" />
 
     <Button
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="296dp"
+        android:layout_marginBottom="284dp"
         android:text="Button" />
 
     <Button
@@ -43,4 +43,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="177dp"
         android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="61dp"
+        android:text="TextView" />
 </RelativeLayout>
