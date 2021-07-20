@@ -19,7 +19,8 @@
         android:background="@drawable/offline_login_button"
         android:text="Offline Login"
         android:textColor="#F1E9E9"
-        android:textSize="17sp" />
+        android:textSize="17sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button6"
@@ -31,16 +32,19 @@
         android:background="@drawable/email_login_button"
         android:text="Email Login"
         android:textColor="#1E1D1D"
-        android:textSize="17sp" />
+        android:textSize="17sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="wrap_content"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="284dp"
-        android:text="GMAIL Login" />
+        android:text="GMAIL Login"
+        android:textSize="17sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button8"
