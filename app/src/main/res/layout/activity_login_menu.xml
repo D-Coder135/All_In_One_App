@@ -55,6 +55,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="177dp"
+        android:background="@drawable/otp_login_button"
         android:text="OTP LOGIN"
         android:textSize="17sp"
         android:textStyle="bold" />
