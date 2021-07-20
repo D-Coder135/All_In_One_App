@@ -23,11 +23,12 @@
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="187dp"
+        android:layout_width="223dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="295dp"
+        android:background="@drawable/email_login_button"
         android:text="Email Login" />
 
     <Button
