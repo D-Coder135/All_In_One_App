@@ -25,5 +25,6 @@ public class LoginMenu extends AppCompatActivity {
 
         YoYo.with(Techniques.RollIn).repeat(0).playOn(textView);
         YoYo.with(Techniques.RotateInUpLeft).duration(2000).repeat(0).playOn(offlineButton);
+        YoYo.with(Techniques.RotateInUpRight).duration(2000).repeat(0).playOn(emailButton);
     }
 }
