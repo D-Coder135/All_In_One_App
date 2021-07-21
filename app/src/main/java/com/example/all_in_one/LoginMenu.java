@@ -24,5 +24,6 @@ public class LoginMenu extends AppCompatActivity {
         otpButton = findViewById(R.id.button53);
 
         YoYo.with(Techniques.RollIn).repeat(0).playOn(textView);
+        YoYo.with(Techniques.RotateInUpLeft).duration(2000).repeat(0).playOn(offlineButton);
     }
 }
