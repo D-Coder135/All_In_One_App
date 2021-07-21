@@ -14,5 +14,6 @@ public class LoginMenu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_menu);
+        textView = findViewById(R.id.textView2);
     }
 }
