@@ -13,9 +13,9 @@
         android:layout_height="216dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="135dp"
-        android:layout_marginEnd="79dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="80dp"
         app:srcCompat="@drawable/pic" />
 
     <TextView
@@ -26,15 +26,15 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="17dp"
-        android:layout_marginBottom="252dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="578dp"
         android:fontFamily="sans-serif-smallcaps"
         android:lineSpacingExtra="8sp"
         android:text="Welcome To The All In One App!"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-        android:textColor="#0A5F85"
+        android:textColor="#054967"
         android:textSize="32sp"
         android:textStyle="bold|italic"
         android:typeface="monospace" />
@@ -47,8 +47,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginEnd="127dp"
-        android:layout_marginBottom="126dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="109dp"
         android:background="@drawable/custom_button"
         android:text="Continue" />
 </RelativeLayout>
