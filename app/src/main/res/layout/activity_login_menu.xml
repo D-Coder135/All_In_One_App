@@ -8,7 +8,7 @@
     tools:context=".LoginMenu">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button50"
         android:layout_width="217dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
