@@ -3,6 +3,7 @@ package com.example.all_in_one;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -28,5 +29,12 @@ public class LoginMenu extends AppCompatActivity {
         YoYo.with(Techniques.RotateInUpRight).duration(2000).repeat(0).playOn(emailButton);
         YoYo.with(Techniques.RotateInDownLeft).duration(2000).repeat(0).playOn(gmailButton);
         YoYo.with(Techniques.RotateInDownRight).duration(2000).repeat(0).playOn(otpButton);
+
+        offlineButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 }
