@@ -16,5 +16,6 @@ public class LoginMenu extends AppCompatActivity {
         setContentView(R.layout.activity_login_menu);
         textView = findViewById(R.id.textView2);
         offlineButton = findViewById(R.id.button50);
+        emailButton = findViewById(R.id.button51);
     }
 }
