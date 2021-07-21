@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
+
 public class LoginMenu extends AppCompatActivity {
     TextView textView;
     Button offlineButton, emailButton, gmailButton, otpButton;
@@ -19,5 +22,7 @@ public class LoginMenu extends AppCompatActivity {
         emailButton = findViewById(R.id.button51);
         gmailButton = findViewById(R.id.button52);
         otpButton = findViewById(R.id.button53);
+
+        YoYo.with(Techniques.RollIn).repeat(0).playOn(textView);
     }
 }
