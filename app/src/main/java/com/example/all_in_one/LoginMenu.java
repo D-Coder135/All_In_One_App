@@ -15,5 +15,6 @@ public class LoginMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_menu);
         textView = findViewById(R.id.textView2);
+        offlineButton = findViewById(R.id.button50);
     }
 }
