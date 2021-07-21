@@ -36,6 +36,7 @@ public class LoginMenu extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(LoginMenu.this, OfflineLoginPage.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
