@@ -39,22 +39,22 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="122dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="72dp"
-        android:layout_marginBottom="53dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="55dp"
         android:text="Button" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
+        android:layout_width="122dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="57dp"
-        android:layout_marginBottom="52dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="55dp"
         android:text="Button" />
 
     <TextView
@@ -64,6 +64,9 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="65dp"
-        android:text="OR" />
+        android:text="OR"
+        android:textColor="#100F0F"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
 
 </RelativeLayout>
