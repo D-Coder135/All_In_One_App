@@ -14,12 +14,37 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="-3dp"
-        android:layout_marginTop="253dp"
-        android:layout_marginEnd="4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="0dp"
         android:ems="10"
         android:hint="Enter Your Email."
-        android:textColorHint="@color/cardview_dark_background"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="536dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:hint="Enter Your Password."
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginBottom="53dp"
+        android:text="Button" />
 
 </RelativeLayout>
