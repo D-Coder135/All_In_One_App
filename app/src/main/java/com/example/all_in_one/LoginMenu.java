@@ -26,9 +26,9 @@ public class LoginMenu extends AppCompatActivity {
         otpButton = findViewById(R.id.button53);
 
         YoYo.with(Techniques.RollIn).duration(1000).repeat(0).playOn(textView);
-        YoYo.with(Techniques.RotateInUpLeft).duration(2000).repeat(0).playOn(offlineButton);
+        YoYo.with(Techniques.RotateInUpRight).duration(2000).repeat(0).playOn(offlineButton);
         YoYo.with(Techniques.RotateInUpRight).duration(2000).repeat(0).playOn(emailButton);
-        YoYo.with(Techniques.RotateInDownLeft).duration(2000).repeat(0).playOn(gmailButton);
+        YoYo.with(Techniques.RotateInDownRight).duration(2000).repeat(0).playOn(gmailButton);
         YoYo.with(Techniques.RotateInDownRight).duration(2000).repeat(0).playOn(otpButton);
 
         offlineButton.setOnClickListener(new View.OnClickListener() {
