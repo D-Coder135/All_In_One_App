@@ -18,5 +18,6 @@ public class OfflineLoginPage extends AppCompatActivity {
         setContentView(R.layout.activity_offline_login_page);
         heading = findViewById(R.id.textView4);
         loginButton = findViewById(R.id.button20);
+        signUpButton = findViewById(R.id.button21);
     }
 }
