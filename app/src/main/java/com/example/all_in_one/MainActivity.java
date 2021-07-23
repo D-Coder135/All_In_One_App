@@ -29,13 +29,10 @@ public class MainActivity extends AppCompatActivity {
         YoYo.with(Techniques.SlideInLeft).duration(1000).repeat(0).playOn(textView);
         YoYo.with(Techniques.BounceIn).duration(3000).repeat(0).playOn(button);
 
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, LoginMenu.class);
-                startActivity(intent);
-                finish();
-            }
+        button.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, LoginMenu.class);
+            startActivity(intent);
+            finish();
         });
     }
 }
