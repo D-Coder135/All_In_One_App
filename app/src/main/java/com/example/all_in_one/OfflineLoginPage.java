@@ -28,5 +28,6 @@ public class OfflineLoginPage extends AppCompatActivity {
         signUpButton = findViewById(R.id.button21);
 
         YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
+        YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(emailField);
     }
 }
