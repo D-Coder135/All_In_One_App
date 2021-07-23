@@ -3,6 +3,7 @@ package com.example.all_in_one;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.InputType;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -21,5 +22,6 @@ public class OfflineLoginPage extends AppCompatActivity {
         signUpButton = findViewById(R.id.button21);
         emailField = findViewById(R.id.editText1);
         passwordField = findViewById(R.id.editText2);
+        passwordField.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
     }
 }
