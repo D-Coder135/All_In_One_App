@@ -31,13 +31,10 @@ public class LoginMenu extends AppCompatActivity {
         YoYo.with(Techniques.RotateInDownRight).duration(2000).repeat(0).playOn(gmailButton);
         YoYo.with(Techniques.RotateInDownRight).duration(2000).repeat(0).playOn(otpButton);
 
-        offlineButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(LoginMenu.this, OfflineLoginPage.class);
-                startActivity(intent);
-                finish();
-            }
+        offlineButton.setOnClickListener(v -> {
+            Intent intent = new Intent(LoginMenu.this, OfflineLoginPage.class);
+            startActivity(intent);
+            finish();
         });
     }
 }
