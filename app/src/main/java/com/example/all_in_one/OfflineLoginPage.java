@@ -30,7 +30,8 @@ public class OfflineLoginPage extends AppCompatActivity {
         YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
         YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(emailField);
         YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(passwordField);
-        YoYo.with(Techniques.StandUp).duration(3000).repeat(0).playOn(loginButton);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(loginButton);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(signUpButton);
 
     }
 }
