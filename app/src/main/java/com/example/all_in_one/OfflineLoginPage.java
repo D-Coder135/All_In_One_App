@@ -19,5 +19,6 @@ public class OfflineLoginPage extends AppCompatActivity {
         heading = findViewById(R.id.textView4);
         loginButton = findViewById(R.id.button20);
         signUpButton = findViewById(R.id.button21);
+        emailField = findViewById(R.id.editText1);
     }
 }
