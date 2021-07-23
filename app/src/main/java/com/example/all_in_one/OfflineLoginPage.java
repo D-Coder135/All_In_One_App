@@ -21,12 +21,12 @@ public class OfflineLoginPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_offline_login_page);
         heading = findViewById(R.id.textView4);
-        loginButton = findViewById(R.id.button20);
-        signUpButton = findViewById(R.id.button21);
         emailField = findViewById(R.id.editText1);
         passwordField = findViewById(R.id.editText2);
         passwordField.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+        loginButton = findViewById(R.id.button20);
+        signUpButton = findViewById(R.id.button21);
 
-        YoYo.with(Techniques.DropOut).duration(1000).repeat(0).playOn(heading);
+        YoYo.with(Techniques.FlipInX).duration(1000).repeat(0).playOn(heading);
     }
 }
