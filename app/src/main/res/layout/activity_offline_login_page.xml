@@ -14,9 +14,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="152dp"
-        android:layout_marginEnd="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="169dp"
+        android:layout_marginEnd="-1dp"
         android:ems="10"
         android:hint="Enter Your Email."
         android:inputType="textPersonName"
@@ -78,5 +78,14 @@
         android:textColor="#100F0F"
         android:textSize="20sp"
         android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:text="TextView" />
 
 </RelativeLayout>
