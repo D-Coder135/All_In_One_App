@@ -87,6 +87,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="62dp"
         android:text="Offline Login Page."
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
 
 </RelativeLayout>
