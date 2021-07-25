@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
@@ -46,7 +47,7 @@ public class OfflineLoginPage extends AppCompatActivity {
             String password = passwordField.getText().toString();
 
             if (email.equals("") || password.equals("")) {
-
+                Toast.makeText(this, "Please fill the mandatory fields!", Toast.LENGTH_SHORT).show();
             }
         });
     }
