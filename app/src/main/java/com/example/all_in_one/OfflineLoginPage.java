@@ -60,6 +60,8 @@ public class OfflineLoginPage extends AppCompatActivity {
                     Intent intent = new Intent(OfflineLoginPage.this, DatabasePage.class);
                     startActivity(intent);
                     finish();
+                } else {
+
                 }
             }
         });
