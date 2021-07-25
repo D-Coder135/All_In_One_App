@@ -32,5 +32,9 @@ public class OfflineSignUpPage extends AppCompatActivity {
         YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(passwordField);
         YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(backButton);
         YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(signUpButton);
+
+        backButton.setOnClickListener(v -> {
+
+        });
     }
 }
