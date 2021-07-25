@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.All_In_One">
-        <activity android:name=".OfflineLoginPage"></activity>
+        <activity android:name=".OfflineSignUpPage"></activity>
+        <activity android:name=".OfflineLoginPage" />
         <activity android:name=".LoginMenu" />
         <activity android:name=".MainActivity">
             <intent-filter>
