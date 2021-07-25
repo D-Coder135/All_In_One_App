@@ -8,6 +8,7 @@ import android.text.InputType;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
@@ -43,6 +44,10 @@ public class OfflineSignUpPage extends AppCompatActivity {
         signUpButton.setOnClickListener(v -> {
             String email = emailField.getText().toString();
             String password = passwordField.getText().toString();
+
+            if (email.equals("") || password.equals("")) {
+                Toast.makeText(this, "Please fill the mandatory fields!", Toast.LENGTH_SHORT).show();
+            }
         });
     }
 }
