@@ -54,6 +54,10 @@ public class OfflineSignUpPage extends AppCompatActivity {
                 sqLiteDatabase.execSQL("create table if not exists user (email varchar, password varchar)");
                 String query = "select * from user where email = '"+email+"' and password = '"+password+"'";
                 Cursor cursor = sqLiteDatabase.rawQuery(query, null);
+
+                if (cursor.getCount() > 0) {
+
+                }
             }
         });
     }
