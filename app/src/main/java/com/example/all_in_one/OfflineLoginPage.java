@@ -44,6 +44,10 @@ public class OfflineLoginPage extends AppCompatActivity {
         loginButton.setOnClickListener(v -> {
             String email = emailField.getText().toString();
             String password = passwordField.getText().toString();
+
+            if (email.equals("") || password.equals("")) {
+
+            }
         });
     }
 }
