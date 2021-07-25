@@ -3,7 +3,97 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/off"
     android:layout_height="match_parent"
-    tools:context=".OfflineSignUpPage">
+    tools:context=".OfflineLoginPage">
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="169dp"
+        android:layout_marginEnd="-1dp"
+        android:ems="10"
+        android:hint="Enter Your Email."
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="536dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:hint="Enter Your Password."
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/signup_button"
+        android:text="Signup"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#EDE7E7"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/login_button"
+        android:text="Back"
+        android:textAllCaps="true"
+        android:textColor="#E6DADA"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:text="OR"
+        android:textColor="#100F0F"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Offline SignUp Page."
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#47A106"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        android:typeface="monospace" />
 
 </RelativeLayout>
