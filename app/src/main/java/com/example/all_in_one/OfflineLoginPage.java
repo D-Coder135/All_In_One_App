@@ -61,7 +61,7 @@ public class OfflineLoginPage extends AppCompatActivity {
                     startActivity(intent);
                     finish();
                 } else {
-
+                    Toast.makeText(this, "Invalid Details!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
