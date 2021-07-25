@@ -37,6 +37,7 @@ public class OfflineSignUpPage extends AppCompatActivity {
         backButton.setOnClickListener(v -> {
             Intent intent = new Intent(OfflineSignUpPage.this, OfflineLoginPage.class);
             startActivity(intent);
+            finish();
         });
     }
 }
