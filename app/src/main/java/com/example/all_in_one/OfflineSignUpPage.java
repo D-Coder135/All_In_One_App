@@ -60,6 +60,9 @@ public class OfflineSignUpPage extends AppCompatActivity {
                 } else {
                     sqLiteDatabase.execSQL("insert into user values ('"+email+"' , '"+password+"')");
                     Toast.makeText(this, "Registered Successfully! Log In To Continue.", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(OfflineSignUpPage.this, OfflineLoginPage.class);
+                    startActivity(intent);
+                    finish();
                 }
             }
         });
