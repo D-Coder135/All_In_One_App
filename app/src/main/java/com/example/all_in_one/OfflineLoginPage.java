@@ -54,6 +54,10 @@ public class OfflineLoginPage extends AppCompatActivity {
                 SQLiteDatabase sqLiteDatabase = openOrCreateDatabase("authentication", MODE_PRIVATE, null);
                 String query = "select * from user where email ='"+email+"' and password = '"+password+"'";
                 Cursor cursor = sqLiteDatabase.rawQuery(query, null);
+
+                if (cursor.getCount() > 0) {
+
+                }
             }
         });
     }
