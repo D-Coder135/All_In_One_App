@@ -41,5 +41,8 @@ public class OfflineLoginPage extends AppCompatActivity {
             finish();
         });
 
+        loginButton.setOnClickListener(v -> {
+
+        });
     }
 }
