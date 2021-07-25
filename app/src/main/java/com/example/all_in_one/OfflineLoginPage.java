@@ -52,8 +52,8 @@ public class OfflineLoginPage extends AppCompatActivity {
                 Toast.makeText(this, "Please fill the mandatory fields!", Toast.LENGTH_SHORT).show();
             } else {
                 SQLiteDatabase sqLiteDatabase = openOrCreateDatabase("authentication", MODE_PRIVATE, null);
-                String data = "select * from user where email ='"+email+"' and password = '"+password+"'";
-                Cursor cursor = sqLiteDatabase.rawQuery(data, null);
+                String query = "select * from user where email ='"+email+"' and password = '"+password+"'";
+                Cursor cursor = sqLiteDatabase.rawQuery(query, null);
             }
         });
     }
