@@ -39,5 +39,9 @@ public class OfflineSignUpPage extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        signUpButton.setOnClickListener(v -> {
+
+        });
     }
 }
