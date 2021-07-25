@@ -2,6 +2,7 @@ package com.example.all_in_one;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.InputType;
 import android.widget.Button;
@@ -34,7 +35,7 @@ public class OfflineSignUpPage extends AppCompatActivity {
         YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(signUpButton);
 
         backButton.setOnClickListener(v -> {
-
+            Intent intent = new Intent(OfflineSignUpPage.this, OfflineLoginPage.class);
         });
     }
 }
