@@ -56,7 +56,9 @@ public class OfflineSignUpPage extends AppCompatActivity {
                 Cursor cursor = sqLiteDatabase.rawQuery(query, null);
 
                 if (cursor.getCount() > 0) {
-                    Toast.makeText(Second.this, "User Already Exists.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "User Already Exists.", Toast.LENGTH_SHORT).show();
+                } else {
+
                 }
             }
         });
