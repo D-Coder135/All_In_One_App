@@ -58,6 +58,7 @@ public class OfflineLoginPage extends AppCompatActivity {
                 if (cursor.getCount() > 0) {
                     Toast.makeText(this, "Logged In Successfully!", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(OfflineLoginPage.this, DatabasePage.class);
+                    startActivity(intent);
                 }
             }
         });
