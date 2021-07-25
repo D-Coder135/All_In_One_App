@@ -36,6 +36,7 @@ public class OfflineLoginPage extends AppCompatActivity {
         YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(signUpButton);
 
         signUpButton.setOnClickListener(v -> {
+            Intent intent = new Intent(OfflineLoginPage.this, OfflineSignUpPage.class);
 
         });
 
