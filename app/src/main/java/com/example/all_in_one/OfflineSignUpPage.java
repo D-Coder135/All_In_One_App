@@ -3,6 +3,7 @@ package com.example.all_in_one;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.text.InputType;
@@ -52,7 +53,7 @@ public class OfflineSignUpPage extends AppCompatActivity {
                 SQLiteDatabase sqLiteDatabase = openOrCreateDatabase("authentication", MODE_PRIVATE, null);
                 sqLiteDatabase.execSQL("create table if not exists user (email varchar, password varchar)");
                 String query = "select * from user where email = '"+email+"' and password = '"+password+"'";
-
+                Cursor cursor = sqLiteDatabase.rawQuery(query, null);
             }
         });
     }
