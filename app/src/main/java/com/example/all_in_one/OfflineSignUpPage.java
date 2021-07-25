@@ -50,6 +50,8 @@ public class OfflineSignUpPage extends AppCompatActivity {
                 Toast.makeText(this, "Please fill the mandatory fields!", Toast.LENGTH_SHORT).show();
             } else {
                 SQLiteDatabase sqLiteDatabase = openOrCreateDatabase("authentication", MODE_PRIVATE, null);
+                sqLiteDatabase.execSQL("create table if not exists user (email varchar, password varchar)");
+                
             }
         });
     }
