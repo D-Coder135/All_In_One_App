@@ -41,7 +41,8 @@ public class OfflineSignUpPage extends AppCompatActivity {
         });
 
         signUpButton.setOnClickListener(v -> {
-
+            String email = emailField.getText().toString();
+            String password = passwordField.getText().toString();
         });
     }
 }
