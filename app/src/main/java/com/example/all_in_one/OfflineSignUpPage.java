@@ -3,6 +3,7 @@ package com.example.all_in_one;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.text.InputType;
 import android.widget.Button;
@@ -48,7 +49,7 @@ public class OfflineSignUpPage extends AppCompatActivity {
             if (email.equals("") || password.equals("")) {
                 Toast.makeText(this, "Please fill the mandatory fields!", Toast.LENGTH_SHORT).show();
             } else {
-
+                SQLiteDatabase sqLiteDatabase = openOrCreateDatabase("authentication", MODE_PRIVATE, null);
             }
         });
     }
