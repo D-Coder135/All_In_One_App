@@ -59,7 +59,7 @@ public class OfflineSignUpPage extends AppCompatActivity {
                     Toast.makeText(this, "User Already Exists.", Toast.LENGTH_SHORT).show();
                 } else {
                     sqLiteDatabase.execSQL("insert into user values ('"+email+"' , '"+password+"')");
-
+                    Toast.makeText(this, "Registered Successfully! Log In To Continue.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
