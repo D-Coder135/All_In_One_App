@@ -51,7 +51,8 @@ public class OfflineSignUpPage extends AppCompatActivity {
             } else {
                 SQLiteDatabase sqLiteDatabase = openOrCreateDatabase("authentication", MODE_PRIVATE, null);
                 sqLiteDatabase.execSQL("create table if not exists user (email varchar, password varchar)");
-                
+                String query = "select * from user where email = '"+email+"' and password = '"+password+"'";
+
             }
         });
     }
