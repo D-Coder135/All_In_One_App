@@ -47,6 +47,8 @@ public class OfflineSignUpPage extends AppCompatActivity {
 
             if (email.equals("") || password.equals("")) {
                 Toast.makeText(this, "Please fill the mandatory fields!", Toast.LENGTH_SHORT).show();
+            } else {
+
             }
         });
     }
