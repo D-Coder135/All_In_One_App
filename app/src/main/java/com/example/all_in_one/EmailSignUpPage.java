@@ -9,6 +9,8 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class EmailSignUpPage extends AppCompatActivity {
@@ -30,5 +32,11 @@ public class EmailSignUpPage extends AppCompatActivity {
         signUpButton = findViewById(R.id.button28);
         progressBar = findViewById(R.id.progressBar1);
         firebaseAuth = FirebaseAuth.getInstance();
+
+        YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
+        YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(emailField);
+        YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(passwordField);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(loginButton);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(signUpButton);
     }
 }
