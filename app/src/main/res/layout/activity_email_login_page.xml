@@ -37,14 +37,21 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="160dp"
-        android:text="Button" />
+        android:background="@drawable/login_button"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:textColor="#E1D3D3"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
+        android:layout_width="234dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="45dp"
-        android:text="Button" />
+        android:text="Create An Account"
+        android:textSize="18sp" />
 </RelativeLayout>
