@@ -43,6 +43,7 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
                 Toast.makeText(this, "Enter OTP To Continue!", Toast.LENGTH_SHORT).show();
             } else {
                 PhoneAuthCredential credential = PhoneAuthProvider.getCredential(otp, otpField.getText().toString());
+                signInWithPhoneAuthCredential(credential);
             }
         });
 
