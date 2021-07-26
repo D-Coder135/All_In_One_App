@@ -59,6 +59,9 @@ public class EmailLoginPage extends AppCompatActivity {
                 }
             }
             progressBar.setVisibility(View.VISIBLE);
+            firebaseAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(m -> {
+
+            });
         });
     }
 }
