@@ -47,11 +47,12 @@
 
     <Button
         android:id="@+id/button40"
-        android:layout_width="wrap_content"
+        android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="158dp"
-        android:text="Get OTP" />
+        android:text="Get OTP"
+        android:textSize="20sp" />
 
 </RelativeLayout>
