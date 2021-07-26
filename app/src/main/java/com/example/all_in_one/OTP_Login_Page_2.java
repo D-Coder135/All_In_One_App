@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 public class OTP_Login_Page_2 extends AppCompatActivity {
     TextView heading;
+    EditText otpField;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
