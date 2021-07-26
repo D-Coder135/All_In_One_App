@@ -65,6 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="114dp"
-        android:text="OR" />
+        android:layout_marginBottom="107dp"
+        android:text="OR"
+        android:textSize="22sp" />
 </RelativeLayout>
