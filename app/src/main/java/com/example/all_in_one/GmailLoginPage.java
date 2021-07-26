@@ -37,6 +37,7 @@ public class GmailLoginPage extends AppCompatActivity {
         if (firebaseUser != null) {
             Intent intent = new Intent(GmailLoginPage.this, DatabasePage.class);
             startActivity(intent);
+            finish();
         }
     }
 }
