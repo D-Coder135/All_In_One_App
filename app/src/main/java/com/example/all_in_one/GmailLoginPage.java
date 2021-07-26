@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.pm.SigningInfo;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.widget.Toast;
 
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
@@ -71,6 +72,7 @@ public class GmailLoginPage extends AppCompatActivity {
                             public void onComplete(@NonNull @NotNull Task<AuthResult> task) {
                                 if (task.isSuccessful()) {
                                     Toast.makeText(GmailLoginPage.this, "Firebase Database Updated!", Toast.LENGTH_SHORT).show();
+                                    Intent intent = new Intent(GmailLoginPage.this, DatabasePage.class);
                                 }
                             }
                         })
