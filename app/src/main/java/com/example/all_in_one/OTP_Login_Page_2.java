@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
@@ -37,7 +38,7 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
 
         loginButton.setOnClickListener(v -> {
             if (otpField.getText().toString().isEmpty()) {
-
+                Toast.makeText(this, "Enter OTP To Continue!", Toast.LENGTH_SHORT).show();
             }
         });
 
