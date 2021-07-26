@@ -3,6 +3,7 @@ package com.example.all_in_one;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -90,6 +91,7 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
             public void onComplete(@NonNull @NotNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
                     Toast.makeText(OTP_Login_Page_2.this, "Logged In Successfully!", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(OTP_Login_Page_2.this, DatabasePage.class);
                 }
             }
         });
