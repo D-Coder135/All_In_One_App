@@ -80,4 +80,8 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
                 }
         );
     }
+
+    private void signInWithPhoneAuthCredential(PhoneAuthCredential credential) {
+
+    }
 }
