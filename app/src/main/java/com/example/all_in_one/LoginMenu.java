@@ -38,7 +38,7 @@ public class LoginMenu extends AppCompatActivity {
         });
 
         emailButton.setOnClickListener(v -> {
-
+            Intent intent = new Intent(LoginMenu.this, EmailLoginPage.class);
         });
     }
 }
