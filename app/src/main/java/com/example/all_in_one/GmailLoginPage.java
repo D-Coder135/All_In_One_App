@@ -2,6 +2,7 @@ package com.example.all_in_one;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.pm.SigningInfo;
 import android.os.Bundle;
 
@@ -27,7 +28,7 @@ public class GmailLoginPage extends AppCompatActivity {
         googleSignInClient = GoogleSignIn.getClient(GmailLoginPage.this, googleSignInOptions);
 
         signInButton.setOnClickListener(v -> {
-            
+            Intent intent = googleSignInClient.getSignInIntent();
         });
     }
 }
