@@ -2,6 +2,7 @@ package com.example.all_in_one;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -25,6 +26,7 @@ import com.google.firebase.auth.GoogleAuthProvider;
 import org.jetbrains.annotations.NotNull;
 
 public class GmailLoginPage extends AppCompatActivity {
+    TextView heading;
     SignInButton signInButton;
     FirebaseAuth firebaseAuth;
     GoogleSignInClient googleSignInClient;
