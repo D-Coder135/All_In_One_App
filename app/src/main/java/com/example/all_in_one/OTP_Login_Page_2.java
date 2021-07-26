@@ -39,6 +39,8 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
         loginButton.setOnClickListener(v -> {
             if (otpField.getText().toString().isEmpty()) {
                 Toast.makeText(this, "Enter OTP To Continue!", Toast.LENGTH_SHORT).show();
+            } else {
+
             }
         });
 
