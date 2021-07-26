@@ -70,7 +70,7 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
 
                     @Override
                     public void onVerificationCompleted(@NonNull @NotNull PhoneAuthCredential phoneAuthCredential) {
-
+                        signInWithPhoneAuthCredential(phoneAuthCredential);
                     }
 
                     @Override
