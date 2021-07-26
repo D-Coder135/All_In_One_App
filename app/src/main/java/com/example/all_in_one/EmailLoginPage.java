@@ -1,7 +1,5 @@
 package com.example.all_in_one;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.InputType;
@@ -11,8 +9,14 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class EmailLoginPage extends AppCompatActivity {
@@ -59,8 +63,13 @@ public class EmailLoginPage extends AppCompatActivity {
                 }
             }
             progressBar.setVisibility(View.VISIBLE);
-            firebaseAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(m -> {
+            firebaseAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                @Override
+                public void onComplete(@NonNull @org.jetbrains.annotations.NotNull Task<AuthResult> task) {
+                    if (task.isSuccessful()) {
 
+                    }
+                }
             });
         });
     }
