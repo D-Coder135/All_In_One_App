@@ -11,12 +11,14 @@ import android.widget.TextView;
 
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class EmailLoginPage extends AppCompatActivity {
     TextView heading;
     Button loginButton, signUpButton;
     EditText emailField, passwordField;
     ProgressBar progressBar;
+    FirebaseAuth firebaseAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
