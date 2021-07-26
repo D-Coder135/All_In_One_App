@@ -81,6 +81,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="91dp"
-        android:text="Email Login Page" />
+        android:layout_marginTop="70dp"
+        android:text="Email Login Page"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#010A37"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
 </RelativeLayout>
