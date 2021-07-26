@@ -49,7 +49,11 @@ public class GmailLoginPage extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == 200) {
-            Task<GoogleSignInAccount> signInAccountTask = GoogleSignIn.getSignedInAccountFromIntent(data)
+            Task<GoogleSignInAccount> signInAccountTask = GoogleSignIn.getSignedInAccountFromIntent(data);
+
+            if (signInAccountTask.isSuccessful()) {
+
+            }
         }
     }
 }
