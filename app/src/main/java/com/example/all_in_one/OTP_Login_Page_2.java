@@ -1,5 +1,6 @@
 package com.example.all_in_one;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -10,9 +11,14 @@ import android.widget.Toast;
 
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
+import com.google.firebase.FirebaseException;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
+
+import org.jetbrains.annotations.NotNull;
+
+import java.util.concurrent.TimeUnit;
 
 public class OTP_Login_Page_2 extends AppCompatActivity {
     TextView heading;
@@ -49,6 +55,22 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
     }
 
     private void generateOTP() {
+        PhoneAuthProvider.getInstance().verifyPhoneNumber(
+                mobileNumber,
+                60,
+                TimeUnit.SECONDS,
+                this,
+                new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
+                    @Override
+                    public void onVerificationCompleted(@NonNull @NotNull PhoneAuthCredential phoneAuthCredential) {
 
+                    }
+
+                    @Override
+                    public void onVerificationFailed(@NonNull @NotNull FirebaseException e) {
+
+                    }
+                }
+        );
     }
 }
