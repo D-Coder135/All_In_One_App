@@ -1,5 +1,6 @@
 package com.example.all_in_one;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,11 +15,15 @@ import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.common.api.ApiException;
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthCredential;
+import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
+
+import org.jetbrains.annotations.NotNull;
 
 public class GmailLoginPage extends AppCompatActivity {
     SignInButton signInButton;
@@ -61,6 +66,12 @@ public class GmailLoginPage extends AppCompatActivity {
                     GoogleSignInAccount googleSignInAccount = signInAccountTask.getResult(ApiException.class);
                     if (googleSignInAccount != null) {
                         AuthCredential authCredential = GoogleAuthProvider.getCredential(googleSignInAccount.getIdToken(), null);
+                        firebaseAuth.signInWithCredential(authCredential).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                            @Override
+                            public void onComplete(@NonNull @NotNull Task<AuthResult> task) {
+
+                            }
+                        })
                     }
                 } catch () {
 
