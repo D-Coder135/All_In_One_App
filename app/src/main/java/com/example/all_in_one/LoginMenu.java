@@ -44,7 +44,7 @@ public class LoginMenu extends AppCompatActivity {
         });
 
         gmailButton.setOnClickListener(v -> {
-
+            Intent intent = new Intent(LoginMenu.this, GmailLoginPage.class);
         });
     }
 }
