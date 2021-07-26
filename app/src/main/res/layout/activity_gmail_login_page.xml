@@ -25,6 +25,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="70dp"
         android:text="Google Sign In Page"
+        android:textColor="#ED0C0C"
         android:textSize="34sp" />
 
 </RelativeLayout>
