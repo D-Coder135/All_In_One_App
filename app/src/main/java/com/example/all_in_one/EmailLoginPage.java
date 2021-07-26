@@ -72,6 +72,8 @@ public class EmailLoginPage extends AppCompatActivity {
                         Intent intent = new Intent(EmailLoginPage.this, DatabasePage.class);
                         startActivity(intent);
                         finish();
+                    } else {
+
                     }
                 }
             });
