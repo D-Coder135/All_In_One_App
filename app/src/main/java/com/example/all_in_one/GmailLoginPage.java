@@ -35,6 +35,7 @@ public class GmailLoginPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gmail_login_page);
+        heading = findViewById(R.id.textView11);
         signInButton = findViewById(R.id.signIn);
         firebaseAuth = FirebaseAuth.getInstance();
 
