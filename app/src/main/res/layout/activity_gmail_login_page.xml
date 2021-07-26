@@ -24,8 +24,13 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="70dp"
+        android:fontFamily="serif"
         android:text="Google Sign In Page"
+        android:textAlignment="center"
+        android:textAllCaps="false"
         android:textColor="#ED0C0C"
-        android:textSize="34sp" />
+        android:textSize="32sp"
+        android:textStyle="bold|italic"
+        android:typeface="monospace" />
 
 </RelativeLayout>
