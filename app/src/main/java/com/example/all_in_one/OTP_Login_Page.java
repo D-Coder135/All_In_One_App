@@ -7,6 +7,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
 import com.hbb20.CountryCodePicker;
 
 public class OTP_Login_Page extends AppCompatActivity {
@@ -24,5 +26,9 @@ public class OTP_Login_Page extends AppCompatActivity {
         getOTPButton = findViewById(R.id.button40);
         countryCodePicker = findViewById(R.id.ccp);
         countryCodePicker.registerCarrierNumberEditText(numberField);
+
+        YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
+        YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(numberField);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(getOTPButton);
     }
 }
