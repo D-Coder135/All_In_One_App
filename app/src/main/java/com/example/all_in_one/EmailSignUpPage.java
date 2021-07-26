@@ -46,5 +46,8 @@ public class EmailSignUpPage extends AppCompatActivity {
             finish();
         });
 
+        signUpButton.setOnClickListener(v -> {
+
+        });
     }
 }
