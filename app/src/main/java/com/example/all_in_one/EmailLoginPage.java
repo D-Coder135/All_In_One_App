@@ -8,6 +8,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
+
 public class EmailLoginPage extends AppCompatActivity {
     TextView heading;
     Button loginButton, signUpButton;
@@ -23,5 +26,11 @@ public class EmailLoginPage extends AppCompatActivity {
         passwordField.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
         loginButton = findViewById(R.id.button25);
         signUpButton = findViewById(R.id.button26);
+
+        YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
+        YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(emailField);
+        YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(passwordField);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(loginButton);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(signUpButton);
     }
 }
