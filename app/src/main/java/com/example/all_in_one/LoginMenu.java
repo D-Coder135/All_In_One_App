@@ -50,7 +50,7 @@ public class LoginMenu extends AppCompatActivity {
         });
 
         otpButton.setOnClickListener(v -> {
-
+            Intent intent = new Intent(LoginMenu.this, OTP_Login_Page.class);
         });
     }
 }
