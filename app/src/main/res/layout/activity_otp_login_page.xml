@@ -37,6 +37,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
         android:text="OTP Login Page"
-        android:textSize="34sp" />
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
 
 </RelativeLayout>
