@@ -43,6 +43,7 @@ public class EmailLoginPage extends AppCompatActivity {
         signUpButton.setOnClickListener(v -> {
             Intent intent = new Intent(EmailLoginPage.this, EmailSignUpPage.class);
             startActivity(intent);
+            finish();
         });
     }
 }
