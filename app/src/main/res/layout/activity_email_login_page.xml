@@ -13,11 +13,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="7dp"
-        android:layout_marginTop="217dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="220dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="Enter Your Email"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -27,8 +27,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="318dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="Enter Your Password"
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/button"
