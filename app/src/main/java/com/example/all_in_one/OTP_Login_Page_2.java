@@ -75,7 +75,7 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
 
                     @Override
                     public void onVerificationFailed(@NonNull @NotNull FirebaseException e) {
-
+                        Toast.makeText(OTP_Login_Page_2.this, "OTP Mismatch!!", Toast.LENGTH_SHORT).show();
                     }
                 }
         );
