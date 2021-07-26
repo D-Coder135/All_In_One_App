@@ -33,7 +33,7 @@
         android:inputType="textPersonName" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button25"
         android:layout_width="155dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
