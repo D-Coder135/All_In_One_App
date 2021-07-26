@@ -36,6 +36,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:text="TextView" />
+        android:text="OTP Login Page" />
 
 </RelativeLayout>
