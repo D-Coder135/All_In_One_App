@@ -53,7 +53,9 @@ public class EmailLoginPage extends AppCompatActivity {
             if (email.isEmpty()) {
                 emailField.setError("Email Field Can't Be Empty!");
             } else {
+                if (password.isEmpty()) {
 
+                }
             }
         });
     }
