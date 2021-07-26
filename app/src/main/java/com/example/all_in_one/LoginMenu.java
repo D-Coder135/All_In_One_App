@@ -48,5 +48,9 @@ public class LoginMenu extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        otpButton.setOnClickListener(v -> {
+
+        });
     }
 }
