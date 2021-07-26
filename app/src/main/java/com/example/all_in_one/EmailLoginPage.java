@@ -75,6 +75,7 @@ public class EmailLoginPage extends AppCompatActivity {
                         finish();
                     } else {
                         Toast.makeText(EmailLoginPage.this, "Invalid Details!", Toast.LENGTH_SHORT).show();
+                        progressBar.setVisibility(View.INVISIBLE);
 
                     }
                 }
