@@ -39,6 +39,9 @@ public class EmailSignUpPage extends AppCompatActivity {
         YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(signUpButton);
         YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(backButton);
 
+        backButton.setOnClickListener(v -> {
+
+        });
 
     }
 }
