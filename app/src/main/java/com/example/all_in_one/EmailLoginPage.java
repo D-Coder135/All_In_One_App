@@ -31,6 +31,7 @@ public class EmailLoginPage extends AppCompatActivity {
         loginButton = findViewById(R.id.button25);
         signUpButton = findViewById(R.id.button26);
         progressBar = findViewById(R.id.progressBar);
+        firebaseAuth = FirebaseAuth.getInstance();
 
         YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
         YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(emailField);
