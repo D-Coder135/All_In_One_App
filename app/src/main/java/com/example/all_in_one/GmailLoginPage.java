@@ -34,5 +34,8 @@ public class GmailLoginPage extends AppCompatActivity {
         });
 
         FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
+        if (firebaseUser != null) {
+
+        }
     }
 }
