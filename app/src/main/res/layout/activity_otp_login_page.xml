@@ -38,7 +38,9 @@
         android:layout_marginTop="100dp"
         android:text="OTP Login Page"
         android:textAlignment="center"
+        android:textColor="#01106A"
         android:textSize="34sp"
-        android:textStyle="bold|italic" />
+        android:textStyle="bold|italic"
+        android:typeface="monospace" />
 
 </RelativeLayout>
