@@ -95,7 +95,7 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
                     startActivity(intent);
                     finish();
                 } else {
-
+                    Toast.makeText(OTP_Login_Page_2.this, "Error! Cannot Log In.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
