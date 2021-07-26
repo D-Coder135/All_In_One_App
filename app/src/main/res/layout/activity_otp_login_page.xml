@@ -51,9 +51,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/offline_login_button"
         android:layout_marginBottom="158dp"
+        android:background="@drawable/offline_login_button"
         android:text="Get OTP"
+        android:textColor="#E6DBDB"
         android:textSize="20sp" />
 
 </RelativeLayout>
