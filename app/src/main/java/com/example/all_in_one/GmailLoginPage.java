@@ -76,7 +76,7 @@ public class GmailLoginPage extends AppCompatActivity {
                                     startActivity(intent);
                                     finish();
                                 } else {
-
+                                    Toast.makeText(GmailLoginPage.this, "Something Went Wrong!", Toast.LENGTH_SHORT).show();
                                 }
                             }
                         });
