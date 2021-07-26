@@ -42,6 +42,8 @@ public class GmailLoginPage extends AppCompatActivity {
         firebaseAuth = FirebaseAuth.getInstance();
 
         YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(signInButton);
+
 
         GoogleSignInOptions googleSignInOptions = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestIdToken("193484657689-s84t6u8n12blifecfb9qih44p7g72o6q.apps.googleusercontent.com").requestEmail().build();
         googleSignInClient = GoogleSignIn.getClient(GmailLoginPage.this, googleSignInOptions);
