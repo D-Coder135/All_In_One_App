@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.text.InputType;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.daimajia.androidanimations.library.Techniques;
@@ -15,6 +16,7 @@ public class EmailLoginPage extends AppCompatActivity {
     TextView heading;
     Button loginButton, signUpButton;
     EditText emailField, passwordField;
+    ProgressBar progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
