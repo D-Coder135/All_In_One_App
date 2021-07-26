@@ -69,7 +69,9 @@ public class GmailLoginPage extends AppCompatActivity {
                         firebaseAuth.signInWithCredential(authCredential).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull @NotNull Task<AuthResult> task) {
+                                if (task.isSuccessful()) {
 
+                                }
                             }
                         })
                     }
