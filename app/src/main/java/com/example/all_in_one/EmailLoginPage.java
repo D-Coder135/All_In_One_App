@@ -3,6 +3,7 @@ package com.example.all_in_one;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.InputType;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -19,5 +20,6 @@ public class EmailLoginPage extends AppCompatActivity {
         heading = findViewById(R.id.textView8);
         emailField = findViewById(R.id.editText10);
         passwordField = findViewById(R.id.editText11);
+        passwordField.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
     }
 }
