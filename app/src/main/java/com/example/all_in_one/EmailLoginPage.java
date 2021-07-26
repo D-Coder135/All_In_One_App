@@ -45,5 +45,9 @@ public class EmailLoginPage extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        loginButton.setOnClickListener(v -> {
+
+        });
     }
 }
