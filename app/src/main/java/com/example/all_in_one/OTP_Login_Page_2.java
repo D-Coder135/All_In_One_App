@@ -7,6 +7,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class OTP_Login_Page_2 extends AppCompatActivity {
@@ -27,6 +29,12 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
         loginButton = findViewById(R.id.button41);
         firebaseAuth = FirebaseAuth.getInstance();
 
+        YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
+        YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(otpField);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(loginButton);
+
         generateOTP();
+
+
     }
 }
