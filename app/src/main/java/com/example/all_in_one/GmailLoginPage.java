@@ -11,6 +11,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.SignInButton;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class GmailLoginPage extends AppCompatActivity {
     SignInButton signInButton;
@@ -31,5 +32,7 @@ public class GmailLoginPage extends AppCompatActivity {
             Intent intent = googleSignInClient.getSignInIntent();
             startActivityForResult(intent, 200);
         });
+
+        FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
     }
 }
