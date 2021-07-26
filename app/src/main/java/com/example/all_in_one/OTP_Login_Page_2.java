@@ -94,6 +94,8 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
                     Intent intent = new Intent(OTP_Login_Page_2.this, DatabasePage.class);
                     startActivity(intent);
                     finish();
+                } else {
+
                 }
             }
         });
