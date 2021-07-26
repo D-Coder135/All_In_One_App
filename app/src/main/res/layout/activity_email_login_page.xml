@@ -48,7 +48,7 @@
         android:typeface="serif" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button26"
         android:layout_width="234dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
