@@ -65,7 +65,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="107dp"
+        android:layout_marginBottom="110dp"
+        android:fontFamily="sans-serif-black"
         android:text="OR"
-        android:textSize="22sp" />
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#171616"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans" />
 </RelativeLayout>
