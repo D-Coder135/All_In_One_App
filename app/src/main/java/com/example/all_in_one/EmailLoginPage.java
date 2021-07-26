@@ -70,6 +70,7 @@ public class EmailLoginPage extends AppCompatActivity {
                     if (task.isSuccessful()) {
                         Toast.makeText(EmailLoginPage.this, "Logged In Successfully!", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(EmailLoginPage.this, DatabasePage.class);
+                        startActivity(intent);
                     }
                 }
             });
