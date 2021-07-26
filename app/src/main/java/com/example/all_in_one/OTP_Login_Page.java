@@ -21,5 +21,6 @@ public class OTP_Login_Page extends AppCompatActivity {
         setContentView(R.layout.activity_otp_login_page);
         heading = findViewById(R.id.textView12);
         numberField = findViewById(R.id.editText40);
+        getOTPButton = findViewById(R.id.button40);
     }
 }
