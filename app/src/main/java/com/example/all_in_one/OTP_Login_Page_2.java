@@ -89,7 +89,7 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull @NotNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
-
+                    Toast.makeText(OTP_Login_Page_2.this, "Logged In Successfully!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
