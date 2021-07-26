@@ -92,6 +92,7 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
                 if (task.isSuccessful()) {
                     Toast.makeText(OTP_Login_Page_2.this, "Logged In Successfully!", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(OTP_Login_Page_2.this, DatabasePage.class);
+                    startActivity(intent);
                 }
             }
         });
