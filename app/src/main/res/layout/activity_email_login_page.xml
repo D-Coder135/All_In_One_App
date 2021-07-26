@@ -8,7 +8,7 @@
     tools:context=".EmailLoginPage">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editText10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -84,7 +84,7 @@
         android:layout_marginTop="70dp"
         android:text="Email Login Page"
         android:textAlignment="center"
-        android:textAllCaps="true"
+        android:textAllCaps="false"
         android:textColor="#010A37"
         android:textSize="34sp"
         android:textStyle="bold|italic" />
