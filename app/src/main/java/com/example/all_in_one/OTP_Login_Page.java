@@ -30,5 +30,9 @@ public class OTP_Login_Page extends AppCompatActivity {
         YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
         YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(numberField);
         YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(getOTPButton);
+
+        getOTPButton.setOnClickListener(v -> {
+
+        });
     }
 }
