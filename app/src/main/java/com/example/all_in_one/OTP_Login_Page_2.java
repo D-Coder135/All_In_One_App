@@ -14,6 +14,7 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
     EditText otpField;
     Button loginButton;
     FirebaseAuth firebaseAuth;
+    String mobileNumber;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
