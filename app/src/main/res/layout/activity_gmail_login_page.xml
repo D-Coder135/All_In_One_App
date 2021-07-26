@@ -9,12 +9,13 @@
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/signIn"
-        android:layout_width="match_parent"
-        android:layout_height="98dp"
+        android:layout_width="385dp"
+        android:layout_height="99dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="596dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="595dp"
         android:background="@drawable/login_button" />
 
     <TextView
