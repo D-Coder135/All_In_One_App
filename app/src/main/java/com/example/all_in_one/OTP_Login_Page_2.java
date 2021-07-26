@@ -88,8 +88,10 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
         firebaseAuth.signInWithCredential(credential).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull @NotNull Task<AuthResult> task) {
+                if (task.isSuccessful()) {
 
+                }
             }
-        })
+        });
     }
 }
