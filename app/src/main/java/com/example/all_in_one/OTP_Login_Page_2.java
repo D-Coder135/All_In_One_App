@@ -61,6 +61,12 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
                 TimeUnit.SECONDS,
                 this,
                 new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
+
+                    @Override
+                    public void onCodeSent(@NonNull @NotNull String s, @NonNull @NotNull PhoneAuthProvider.ForceResendingToken forceResendingToken) {
+                        super.onCodeSent(s, forceResendingToken);
+                    }
+
                     @Override
                     public void onVerificationCompleted(@NonNull @NotNull PhoneAuthCredential phoneAuthCredential) {
 
