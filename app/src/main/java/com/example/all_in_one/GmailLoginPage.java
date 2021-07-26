@@ -73,9 +73,10 @@ public class GmailLoginPage extends AppCompatActivity {
                                 if (task.isSuccessful()) {
                                     Toast.makeText(GmailLoginPage.this, "Firebase Database Updated!", Toast.LENGTH_SHORT).show();
                                     Intent intent = new Intent(GmailLoginPage.this, DatabasePage.class);
+                                    startActivity(intent);
                                 }
                             }
-                        })
+                        });
                     }
                 } catch () {
 
