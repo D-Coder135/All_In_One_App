@@ -81,7 +81,7 @@ public class GmailLoginPage extends AppCompatActivity {
                             }
                         });
                     }
-                } catch () {
+                } catch (ApiException exception) {
 
                 }
             }
