@@ -88,4 +88,13 @@
         android:textColor="#010A37"
         android:textSize="34sp"
         android:textStyle="bold|italic" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="301dp" />
 </RelativeLayout>
