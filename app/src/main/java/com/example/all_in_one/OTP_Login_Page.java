@@ -35,6 +35,7 @@ public class OTP_Login_Page extends AppCompatActivity {
         getOTPButton.setOnClickListener(v -> {
             Intent intent = new Intent(OTP_Login_Page.this, OTP_Login_Page_2.class);
             intent.putExtra("mobile", countryCodePicker.getFullNumberWithPlus().trim());
+            startActivity(intent);
         });
     }
 }
