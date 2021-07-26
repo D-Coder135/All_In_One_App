@@ -11,6 +11,8 @@ import android.widget.Toast;
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.PhoneAuthCredential;
+import com.google.firebase.auth.PhoneAuthProvider;
 
 public class OTP_Login_Page_2 extends AppCompatActivity {
     TextView heading;
@@ -40,7 +42,7 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
             if (otpField.getText().toString().isEmpty()) {
                 Toast.makeText(this, "Enter OTP To Continue!", Toast.LENGTH_SHORT).show();
             } else {
-
+                PhoneAuthCredential credential = PhoneAuthProvider.getCredential(otp, otpField.getText().toString());
             }
         });
 
