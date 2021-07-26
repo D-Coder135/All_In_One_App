@@ -73,7 +73,7 @@ public class EmailLoginPage extends AppCompatActivity {
                         startActivity(intent);
                         finish();
                     } else {
-
+                        Toast.makeText(EmailLoginPage.this, "Invalid Details!", Toast.LENGTH_SHORT).show();
                     }
                 }
             });
