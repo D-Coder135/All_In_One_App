@@ -75,6 +75,8 @@ public class GmailLoginPage extends AppCompatActivity {
                                     Intent intent = new Intent(GmailLoginPage.this, DatabasePage.class);
                                     startActivity(intent);
                                     finish();
+                                } else {
+
                                 }
                             }
                         });
