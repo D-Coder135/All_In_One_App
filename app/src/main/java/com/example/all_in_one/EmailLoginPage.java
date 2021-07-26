@@ -38,5 +38,9 @@ public class EmailLoginPage extends AppCompatActivity {
         YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(passwordField);
         YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(loginButton);
         YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(signUpButton);
+
+        signUpButton.setOnClickListener(v -> {
+
+        });
     }
 }
