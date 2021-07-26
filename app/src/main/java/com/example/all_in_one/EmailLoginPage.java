@@ -30,6 +30,7 @@ public class EmailLoginPage extends AppCompatActivity {
         passwordField.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
         loginButton = findViewById(R.id.button25);
         signUpButton = findViewById(R.id.button26);
+        progressBar = findViewById(R.id.progressBar);
 
         YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
         YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(emailField);
