@@ -18,5 +18,6 @@ public class GmailLoginPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gmail_login_page);
+        signInButton = findViewById(R.id.signIn);
     }
 }
