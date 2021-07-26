@@ -66,5 +66,5 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="114dp"
-        android:text="TextView" />
+        android:text="OR" />
 </RelativeLayout>
