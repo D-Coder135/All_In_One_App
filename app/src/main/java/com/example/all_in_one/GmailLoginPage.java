@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.pm.SigningInfo;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
@@ -52,6 +53,7 @@ public class GmailLoginPage extends AppCompatActivity {
             Task<GoogleSignInAccount> signInAccountTask = GoogleSignIn.getSignedInAccountFromIntent(data);
 
             if (signInAccountTask.isSuccessful()) {
+                Toast.makeText(this, "Signed In With Google.", Toast.LENGTH_SHORT).show();
 
             }
         }
