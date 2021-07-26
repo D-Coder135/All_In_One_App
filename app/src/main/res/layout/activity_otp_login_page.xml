@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="123dp"
         android:fontFamily="serif"
         android:text="OTP Login Page"
         android:textAlignment="center"
@@ -44,5 +44,14 @@
         android:textSize="34sp"
         android:textStyle="bold|italic"
         android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="158dp"
+        android:text="Button" />
 
 </RelativeLayout>
