@@ -35,6 +35,10 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
 
         generateOTP();
 
+        loginButton.setOnClickListener(v -> {
+
+        });
+
 
     }
 }
