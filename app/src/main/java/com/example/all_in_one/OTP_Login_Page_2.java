@@ -26,5 +26,7 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
         otpField = findViewById(R.id.editText41);
         loginButton = findViewById(R.id.button41);
         firebaseAuth = FirebaseAuth.getInstance();
+
+        generateOTP();
     }
 }
