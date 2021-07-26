@@ -9,6 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
@@ -38,6 +40,8 @@ public class GmailLoginPage extends AppCompatActivity {
         heading = findViewById(R.id.textView11);
         signInButton = findViewById(R.id.signIn);
         firebaseAuth = FirebaseAuth.getInstance();
+
+        YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
 
         GoogleSignInOptions googleSignInOptions = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestIdToken("193484657689-s84t6u8n12blifecfb9qih44p7g72o6q.apps.googleusercontent.com").requestEmail().build();
         googleSignInClient = GoogleSignIn.getClient(GmailLoginPage.this, googleSignInOptions);
