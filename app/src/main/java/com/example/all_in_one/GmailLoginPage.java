@@ -54,7 +54,11 @@ public class GmailLoginPage extends AppCompatActivity {
 
             if (signInAccountTask.isSuccessful()) {
                 Toast.makeText(this, "Signed In With Google.", Toast.LENGTH_SHORT).show();
+                try {
 
+                } catch () {
+
+                }
             }
         }
     }
