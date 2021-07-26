@@ -82,7 +82,7 @@ public class GmailLoginPage extends AppCompatActivity {
                         });
                     }
                 } catch (ApiException exception) {
-
+                    System.out.println(exception);
                 }
             }
         }
