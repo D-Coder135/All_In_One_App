@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -67,6 +68,7 @@ public class EmailLoginPage extends AppCompatActivity {
                 @Override
                 public void onComplete(@NonNull @org.jetbrains.annotations.NotNull Task<AuthResult> task) {
                     if (task.isSuccessful()) {
+                        Toast.makeText(EmailLoginPage.this, "Logged In Successfully!", Toast.LENGTH_SHORT).show();
 
                     }
                 }
