@@ -24,6 +24,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="70dp"
-        android:text="TextView" />
+        android:text="Google Sign In Page" />
 
 </RelativeLayout>
