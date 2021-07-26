@@ -21,5 +21,8 @@ public class OTP_Login_Page_2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_otp_login_page2);
+        heading = findViewById(R.id.textView13);
+        otpField = findViewById(R.id.editText41);
+        loginButton = findViewById(R.id.button41);
     }
 }
