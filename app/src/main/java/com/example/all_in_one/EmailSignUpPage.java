@@ -15,7 +15,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class EmailSignUpPage extends AppCompatActivity {
     TextView heading;
-    Button loginButton, signUpButton;
+    Button signUpButton, backButton;
     EditText emailField, passwordField;
     ProgressBar progressBar;
     FirebaseAuth firebaseAuth;
@@ -28,15 +28,17 @@ public class EmailSignUpPage extends AppCompatActivity {
         emailField = findViewById(R.id.editText12);
         passwordField = findViewById(R.id.editText13);
         passwordField.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
-        loginButton = findViewById(R.id.button27);
-        signUpButton = findViewById(R.id.button28);
+        signUpButton = findViewById(R.id.button27);
+        backButton = findViewById(R.id.button28);
         progressBar = findViewById(R.id.progressBar1);
         firebaseAuth = FirebaseAuth.getInstance();
 
         YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
         YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(emailField);
         YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(passwordField);
-        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(loginButton);
         YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(signUpButton);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(backButton);
+
+
     }
 }
