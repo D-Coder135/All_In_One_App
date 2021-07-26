@@ -29,6 +29,7 @@ public class GmailLoginPage extends AppCompatActivity {
 
         signInButton.setOnClickListener(v -> {
             Intent intent = googleSignInClient.getSignInIntent();
+            startActivityForResult(intent, 200);
         });
     }
 }
