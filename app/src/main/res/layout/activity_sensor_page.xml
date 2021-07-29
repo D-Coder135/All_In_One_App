@@ -25,12 +25,12 @@
         android:typeface="serif" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button57"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="227dp"
+        android:layout_marginTop="282dp"
         android:text="Button" />
 
     <Button
