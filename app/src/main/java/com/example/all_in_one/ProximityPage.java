@@ -14,6 +14,7 @@ public class ProximityPage extends AppCompatActivity {
         setContentView(R.layout.activity_proximity_page);
         bluetoothButton = findViewById(R.id.button60);
         wifiButton = findViewById(R.id.button61);
+        flashButton = findViewById(R.id.button62);
 
     }
 }
