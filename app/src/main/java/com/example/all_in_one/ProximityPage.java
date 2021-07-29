@@ -26,6 +26,7 @@ public class ProximityPage extends AppCompatActivity {
 
         bluetoothButton.setOnClickListener(v -> {
             Intent intent = new Intent(ProximityPage.this, ProximityBluetooth.class);
+            startActivity(intent);
         });
     }
 }
