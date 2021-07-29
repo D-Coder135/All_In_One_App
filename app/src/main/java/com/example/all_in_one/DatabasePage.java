@@ -44,6 +44,7 @@ public class DatabasePage extends AppCompatActivity {
             databaseReference = firebaseDatabase.getReference("users");
             String name = nameField.getText().toString();
             String email = emailField.getText().toString();
+            String password = passwordField.getText().toString();
         });
     }
 }
