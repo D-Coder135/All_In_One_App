@@ -37,6 +37,11 @@ public class ProximityWifi extends AppCompatActivity implements SensorEventListe
 
     @Override
     public void onSensorChanged(SensorEvent event) {
+        if (event.values[0] > 10) {
+            wifiManager.setWifiEnabled(true);
+        } else {
+            wifiManager.setWifiEnabled(false);
+        }
 
     }
 
