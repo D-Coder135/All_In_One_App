@@ -46,6 +46,10 @@ public class DatabasePage extends AppCompatActivity {
             String email = emailField.getText().toString();
             String password = passwordField.getText().toString();
             String mobileNumber = mobileField.getText().toString();
+
+            if (mobileNumber.length() != 10) {
+
+            }
         });
     }
 }
