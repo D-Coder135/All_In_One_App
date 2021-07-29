@@ -29,8 +29,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="195dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/editText71"
