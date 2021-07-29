@@ -5,6 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
+
 public class ProximityPage extends AppCompatActivity {
     Button bluetoothButton, wifiButton, flashButton;
 
@@ -16,5 +19,8 @@ public class ProximityPage extends AppCompatActivity {
         wifiButton = findViewById(R.id.button61);
         flashButton = findViewById(R.id.button62);
 
+        YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(bluetoothButton);
+        YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(wifiButton);
+        YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(flashButton);
     }
 }
