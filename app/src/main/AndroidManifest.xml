@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.All_In_One">
-        <activity android:name=".OTP_Login_Page_2"></activity>
+        <activity android:name=".HomePage"></activity>
+        <activity android:name=".OTP_Login_Page_2" />
         <activity android:name=".OTP_Login_Page" />
         <activity android:name=".GmailLoginPage" />
         <activity android:name=".EmailSignUpPage" />
