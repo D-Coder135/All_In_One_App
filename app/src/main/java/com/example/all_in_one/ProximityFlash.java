@@ -40,6 +40,9 @@ public class ProximityFlash extends AppCompatActivity implements SensorEventList
 
     @Override
     public void onSensorChanged(SensorEvent event) {
+        if(event.values[0] > 10) {
+
+        }
 
     }
 
