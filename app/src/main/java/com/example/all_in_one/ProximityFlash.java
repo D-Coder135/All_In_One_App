@@ -42,13 +42,15 @@ public class ProximityFlash extends AppCompatActivity implements SensorEventList
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     public void onSensorChanged(SensorEvent event) {
-        if(event.values[0] > 10) {
+        if (event.values[0] > 10) {
             try {
                 String cameraIdForFlashlight = cameraManager.getCameraIdList()[0];
                 cameraManager.setTorchMode(cameraIdForFlashlight, true);
             } catch (CameraAccessException exception) {
                 System.out.println(exception);
             }
+        } else {
+
         }
 
     }
