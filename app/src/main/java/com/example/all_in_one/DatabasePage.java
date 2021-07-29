@@ -21,5 +21,6 @@ public class DatabasePage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_database_page);
+        heading = findViewById(R.id.textView14);
     }
 }
