@@ -3,6 +3,7 @@ package com.example.all_in_one;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.bluetooth.BluetoothAdapter;
+import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -25,6 +26,12 @@ public class ProximityBluetooth extends AppCompatActivity implements SensorEvent
         sensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);
         sensor = sensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
         sensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_NORMAL);
+
+        backButton.setOnClickListener(v -> {
+            Intent intent = new Intent(ProximityBluetooth.this, ProximityPage.class);
+            startActivity(intent);
+            finish();
+        });
     }
 
     @Override
