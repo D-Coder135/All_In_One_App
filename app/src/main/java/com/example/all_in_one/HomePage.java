@@ -20,6 +20,6 @@ public class HomePage extends AppCompatActivity {
         browserButton = findViewById(R.id.button82);
         mediaButton = findViewById(R.id.button83);
         phoneButton = findViewById(R.id.button84);
-
+        quizButton = findViewById(R.id.button85);
     }
 }
