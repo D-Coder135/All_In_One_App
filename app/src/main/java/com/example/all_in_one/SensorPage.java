@@ -16,5 +16,7 @@ public class SensorPage extends AppCompatActivity {
         setContentView(R.layout.activity_sensor_page);
         heading = findViewById(R.id.textView16);
         proximityButton = findViewById(R.id.button57);
+        accelerometerButton = findViewById(R.id.button58);
+
     }
 }
