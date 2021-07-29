@@ -29,6 +29,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="195dp"
         android:ems="10"
+        android:hint="Enter Your Name"
         android:inputType="textPersonName" />
 
     <EditText
