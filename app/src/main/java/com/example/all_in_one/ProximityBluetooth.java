@@ -20,6 +20,7 @@ public class ProximityBluetooth extends AppCompatActivity implements SensorEvent
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_proximity_bluetooth);
+        backButton = findViewById(R.id.button78);
         bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         sensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);
         sensor = sensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
