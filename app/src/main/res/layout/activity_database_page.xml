@@ -40,8 +40,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="275dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="Enter Your Email"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/editText72"
