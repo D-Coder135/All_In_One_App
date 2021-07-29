@@ -3,10 +3,12 @@ package com.example.all_in_one;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.EditText;
 import android.widget.TextView;
 
 public class DatabasePage extends AppCompatActivity {
     TextView heading;
+    EditText nameField, emailField, passwordField, mobileField;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
