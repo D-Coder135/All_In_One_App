@@ -29,5 +29,11 @@ public class ProximityPage extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        wifiButton.setOnClickListener(v -> {
+            Intent intent = new Intent(ProximityPage.this, ProximityWifi.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
