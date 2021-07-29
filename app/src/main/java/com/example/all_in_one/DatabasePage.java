@@ -56,5 +56,9 @@ public class DatabasePage extends AppCompatActivity {
                 Toast.makeText(this, "Details Updated In The Database.", Toast.LENGTH_SHORT).show();
             }
         });
+
+        continueButton.setOnClickListener(v -> {
+
+        });
     }
 }
