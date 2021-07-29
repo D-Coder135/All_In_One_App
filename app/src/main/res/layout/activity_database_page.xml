@@ -71,11 +71,16 @@
 
     <Button
         android:id="@+id/button70"
-        android:layout_width="243dp"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="121dp"
         android:background="@drawable/custom_button"
-        android:text="Update Details To Database" />
+        android:text="Update Details To Database"
+        android:textAlignment="center"
+        android:textColor="#201E1E"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
 </RelativeLayout>
