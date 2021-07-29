@@ -22,5 +22,9 @@ public class ProximityPage extends AppCompatActivity {
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(bluetoothButton);
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(wifiButton);
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(flashButton);
+
+        bluetoothButton.setOnClickListener(v -> {
+
+        });
     }
 }
