@@ -19,5 +19,10 @@ public class ProximityWifi extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_proximity_wifi);
+        backButton = findViewById(R.id.button79);
+        wifiManager = (WifiManager) getApplicationContext().getSystemService(WIFI_SERVICE);
+        sensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);
+        sensor = sensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
+        sensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_NORMAL);
     }
 }
