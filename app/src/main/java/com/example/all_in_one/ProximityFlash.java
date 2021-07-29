@@ -5,6 +5,7 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.hardware.camera2.CameraAccessException;
 import android.hardware.camera2.CameraManager;
 import android.net.wifi.WifiManager;
 import android.os.Build;
@@ -38,10 +39,16 @@ public class ProximityFlash extends AppCompatActivity implements SensorEventList
         });
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     public void onSensorChanged(SensorEvent event) {
         if(event.values[0] > 10) {
-
+            try {
+                String cameraIdForFlashlight = cameraManager.getCameraIdList()[0];
+                cameraManager.setTorchMode(cameraIdForFlashlight, true);
+            } catch (CameraAccessException exception) {
+                System.out.println(exception);
+            }
         }
 
     }
