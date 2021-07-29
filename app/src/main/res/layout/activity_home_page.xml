@@ -32,9 +32,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="237dp"
-        android:text="Button" />
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="284dp"
+        android:text="Sensor" />
 
     <Button
         android:id="@+id/button83"
@@ -42,9 +42,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="235dp"
-        android:layout_marginEnd="10dp"
-        android:text="Button" />
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="24dp"
+        android:text="Media" />
 
     <Button
         android:id="@+id/button81"
@@ -52,9 +52,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="326dp"
-        android:text="Button" />
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="411dp"
+        android:text="Calculation" />
 
     <Button
         android:id="@+id/button84"
@@ -62,9 +62,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="321dp"
-        android:layout_marginEnd="14dp"
-        android:text="Button" />
+        android:layout_marginTop="406dp"
+        android:layout_marginEnd="23dp"
+        android:text="Phone" />
 
     <Button
         android:id="@+id/button82"
@@ -72,17 +72,17 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginBottom="260dp"
-        android:text="Button" />
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="135dp"
+        android:text="Browser" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/button85"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="260dp"
-        android:text="Button" />
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="136dp"
+        android:text="Quiz" />
 </RelativeLayout>
