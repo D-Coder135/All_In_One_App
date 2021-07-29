@@ -9,27 +9,27 @@
 
     <Button
         android:id="@+id/button60"
-        android:layout_width="wrap_content"
+        android:layout_width="217dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="182dp"
-        android:layout_marginEnd="146dp"
+        android:layout_marginTop="189dp"
+        android:layout_marginEnd="98dp"
         android:text="Bluetooth" />
 
     <Button
         android:id="@+id/button61"
-        android:layout_width="wrap_content"
+        android:layout_width="224dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="310dp"
+        android:layout_marginTop="318dp"
         android:text="Wifi" />
 
     <Button
         android:id="@+id/button62"
-        android:layout_width="wrap_content"
+        android:layout_width="231dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
