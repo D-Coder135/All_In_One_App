@@ -15,5 +15,6 @@ public class SensorPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sensor_page);
         heading = findViewById(R.id.textView16);
+        proximityButton = findViewById(R.id.button57);
     }
 }
