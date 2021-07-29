@@ -14,5 +14,6 @@ public class SensorPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sensor_page);
+        heading = findViewById(R.id.textView16);
     }
 }
