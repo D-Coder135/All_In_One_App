@@ -13,9 +13,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="181dp"
-        android:layout_marginEnd="160dp"
-        android:text="Button" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="146dp"
+        android:text="Bluetooth" />
 
     <Button
         android:id="@+id/button3"
@@ -24,7 +25,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="310dp"
-        android:text="Button" />
+        android:text="Wifi" />
 
     <Button
         android:id="@+id/button4"
@@ -33,5 +34,5 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="241dp"
-        android:text="Button" />
+        android:text="Flash" />
 </RelativeLayout>
