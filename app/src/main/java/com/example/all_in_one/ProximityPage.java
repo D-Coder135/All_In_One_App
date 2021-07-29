@@ -35,5 +35,11 @@ public class ProximityPage extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        flashButton.setOnClickListener(v -> {
+            Intent intent = new Intent(ProximityPage.this, ProximityFlash.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
