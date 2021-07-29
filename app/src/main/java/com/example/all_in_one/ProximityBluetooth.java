@@ -8,7 +8,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
 
-public class ProximityBluetooth extends AppCompatActivity {
+public class ProximityBluetooth extends AppCompatActivity implements SensorEventListener {
     SensorManager sensorManager;
     Sensor sensor;
     BluetoothAdapter bluetoothAdapter;
@@ -20,6 +20,6 @@ public class ProximityBluetooth extends AppCompatActivity {
         bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         sensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);
         sensor = sensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
-        sensorManager.registerListener((SensorEventListener) this, sensor, SensorManager.SENSOR_DELAY_NORMAL);
+        sensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_NORMAL);
     }
 }
