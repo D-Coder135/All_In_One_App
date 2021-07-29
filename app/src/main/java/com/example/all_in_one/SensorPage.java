@@ -24,5 +24,9 @@ public class SensorPage extends AppCompatActivity {
         YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(proximityButton);
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(accelerometerButton);
+
+        proximityButton.setOnClickListener(v -> {
+
+        });
     }
 }
