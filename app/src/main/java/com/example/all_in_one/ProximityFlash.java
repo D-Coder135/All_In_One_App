@@ -50,7 +50,12 @@ public class ProximityFlash extends AppCompatActivity implements SensorEventList
                 System.out.println(exception);
             }
         } else {
-
+            try {
+                String cameraIdForFlashlight = cameraManager.getCameraIdList()[0];
+                cameraManager.setTorchMode(cameraIdForFlashlight, false);
+            } catch (CameraAccessException exception) {
+                System.out.println(exception);
+            }
         }
 
     }
