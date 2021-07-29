@@ -16,7 +16,7 @@
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="-1dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="82dp"
         android:layout_marginEnd="1dp"
         android:fontFamily="serif"
         android:text="Choose The Category Of Actions To Perform"
@@ -28,61 +28,92 @@
 
     <Button
         android:id="@+id/button80"
-        android:layout_width="wrap_content"
+        android:layout_width="149dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="284dp"
-        android:text="Sensor" />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="267dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="serif"
+        android:text="Sensor Actions"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
 
     <Button
         android:id="@+id/button83"
-        android:layout_width="wrap_content"
+        android:layout_width="142dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="283dp"
-        android:layout_marginEnd="24dp"
-        android:text="Media" />
+        android:layout_marginTop="266dp"
+        android:layout_marginEnd="21dp"
+        android:background="@drawable/email_login_button"
+        android:text="Media Actions"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
 
     <Button
         android:id="@+id/button81"
-        android:layout_width="wrap_content"
+        android:layout_width="148dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="411dp"
-        android:text="Calculation" />
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="387dp"
+        android:background="@drawable/gmail_login_button"
+        android:text="Calculation Actions"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
 
     <Button
         android:id="@+id/button84"
-        android:layout_width="wrap_content"
+        android:layout_width="145dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="406dp"
-        android:layout_marginEnd="23dp"
-        android:text="Phone" />
+        android:layout_marginTop="386dp"
+        android:layout_marginEnd="21dp"
+        android:background="@drawable/signup_button"
+        android:text="Phone"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
 
     <Button
         android:id="@+id/button82"
-        android:layout_width="wrap_content"
+        android:layout_width="151dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="23dp"
-        android:layout_marginBottom="135dp"
-        android:text="Browser" />
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/offline_login_button"
+        android:text="Browser Actions"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
 
     <Button
         android:id="@+id/button85"
-        android:layout_width="wrap_content"
+        android:layout_width="148dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="22dp"
-        android:layout_marginBottom="136dp"
-        android:text="Quiz" />
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="162dp"
+        android:background="@drawable/login_button"
+        android:text="Quiz Actions"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
 </RelativeLayout>
