@@ -2,6 +2,7 @@ package com.example.all_in_one;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
@@ -24,7 +25,7 @@ public class ProximityPage extends AppCompatActivity {
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(flashButton);
 
         bluetoothButton.setOnClickListener(v -> {
-
+            Intent intent = new Intent(ProximityPage.this, ProximityBluetooth.class);
         });
     }
 }
