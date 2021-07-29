@@ -32,6 +32,7 @@
         android:ems="10"
         android:hint="Enter Your Name"
         android:inputType="textPersonName"
+        android:textColor="@color/white"
         android:textColorHint="#ECD7D7" />
 
     <EditText
@@ -44,6 +45,7 @@
         android:ems="10"
         android:hint="Enter Your Email"
         android:textColorHint="#ECD7D7"
+        android:textColor="@color/white"
         android:inputType="textPersonName" />
 
     <EditText
@@ -56,6 +58,7 @@
         android:ems="10"
         android:hint="Enter Your Password"
         android:textColorHint="#ECD7D7"
+        android:textColor="@color/white"
         android:inputType="textPersonName" />
 
     <EditText
@@ -67,6 +70,7 @@
         android:layout_marginBottom="243dp"
         android:ems="10"
         android:hint="Enter Your Phone Number"
+        android:textColor="@color/white"
         android:textColorHint="#ECD7D7"
         android:inputType="textPersonName" />
 
