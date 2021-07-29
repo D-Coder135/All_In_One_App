@@ -51,6 +51,7 @@ public class DatabasePage extends AppCompatActivity {
                 mobileField.setError("Enter A Valid Mobile Number!");
             } else {
                 UsersData usersData = new UsersData(name, email, password, mobileNumber);
+                databaseReference.child(mobileNumber).setValue(usersData);
             }
         });
     }
