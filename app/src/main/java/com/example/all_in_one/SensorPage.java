@@ -28,6 +28,8 @@ public class SensorPage extends AppCompatActivity {
 
         proximityButton.setOnClickListener(v -> {
             Intent intent = new Intent(SensorPage.this, ProximityPage.class);
+            startActivity(intent);
+
         });
     }
 }
