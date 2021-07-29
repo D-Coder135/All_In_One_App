@@ -7,4 +7,13 @@
     android:background="@drawable/sensor"
     tools:context=".ProximityBluetooth">
 
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="300dp"
+        android:text="TextView" />
 </RelativeLayout>
