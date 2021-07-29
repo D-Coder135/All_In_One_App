@@ -26,5 +26,6 @@ public class DatabasePage extends AppCompatActivity {
         emailField = findViewById(R.id.editText71);
         passwordField = findViewById(R.id.editText72);
         mobileField = findViewById(R.id.editText73);
+        updateButton = findViewById(R.id.button70);
     }
 }
