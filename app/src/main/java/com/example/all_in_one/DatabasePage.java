@@ -48,7 +48,7 @@ public class DatabasePage extends AppCompatActivity {
             String mobileNumber = mobileField.getText().toString();
 
             if (mobileNumber.length() != 10) {
-
+                mobileField.setError("Enter A Valid Mobile Number!");
             }
         });
     }
