@@ -1,6 +1,7 @@
 package com.example.all_in_one;
 
 import android.hardware.Sensor;
+import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.hardware.camera2.CameraManager;
 import android.net.wifi.WifiManager;
@@ -11,7 +12,7 @@ import android.widget.Button;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ProximityFlash extends AppCompatActivity {
+public class ProximityFlash extends AppCompatActivity implements SensorEventListener {
     SensorManager sensorManager;
     Sensor sensor;
     CameraManager cameraManager;
