@@ -26,19 +26,19 @@
 
     <Button
         android:id="@+id/button57"
-        android:layout_width="wrap_content"
+        android:layout_width="198dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="282dp"
-        android:text="Button" />
+        android:layout_marginTop="315dp"
+        android:text="Proximity (Light)" />
 
     <Button
         android:id="@+id/button58"
-        android:layout_width="wrap_content"
+        android:layout_width="210dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="287dp"
-        android:text="Button" />
+        android:layout_marginBottom="275dp"
+        android:text="Accelerometer" />
 </RelativeLayout>
