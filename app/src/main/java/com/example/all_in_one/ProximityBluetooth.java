@@ -29,7 +29,7 @@ public class ProximityBluetooth extends AppCompatActivity implements SensorEvent
         if (event.values[0] > 10) {
             bluetoothAdapter.enable();
         } else {
-
+            bluetoothAdapter.disable();
         }
     }
 
