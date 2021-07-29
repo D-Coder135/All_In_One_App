@@ -15,6 +15,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="61dp"
         android:layout_marginEnd="0dp"
+        android:fontFamily="serif"
         android:text="Let's Add Some Data To The Realtime Database!"
         android:textAlignment="center"
         android:textColor="#FF8B38"
@@ -83,4 +84,13 @@
         android:textSize="16sp"
         android:textStyle="bold|italic"
         android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:text="Button" />
 </RelativeLayout>
