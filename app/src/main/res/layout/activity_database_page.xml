@@ -87,11 +87,16 @@
 
     <Button
         android:id="@+id/button71"
-        android:layout_width="157dp"
+        android:layout_width="174dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="37dp"
         android:background="@drawable/otp_login_button"
-        android:text="SKIP/Continue" />
+        android:fontFamily="serif"
+        android:text="SKIP/Continue"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans" />
 </RelativeLayout>
