@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
+
 public class SensorPage extends AppCompatActivity {
     TextView heading;
     Button proximityButton, accelerometerButton;
@@ -18,5 +21,8 @@ public class SensorPage extends AppCompatActivity {
         proximityButton = findViewById(R.id.button57);
         accelerometerButton = findViewById(R.id.button58);
 
+        YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
+        YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(proximityButton);
+        YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(accelerometerButton);
     }
 }
