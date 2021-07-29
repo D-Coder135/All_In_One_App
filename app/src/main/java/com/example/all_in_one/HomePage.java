@@ -37,6 +37,7 @@ public class HomePage extends AppCompatActivity {
         sensorButton.setOnClickListener(v -> {
             Intent intent = new Intent(HomePage.this, SensorPage.class);
             startActivity(intent);
+            finish();
         });
     }
 }
