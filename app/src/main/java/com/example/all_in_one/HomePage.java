@@ -16,6 +16,7 @@ public class HomePage extends AppCompatActivity {
         setContentView(R.layout.activity_home_page);
         heading = findViewById(R.id.textView15);
         sensorButton = findViewById(R.id.button80);
+        calculationButton = findViewById(R.id.button81);
 
     }
 }
