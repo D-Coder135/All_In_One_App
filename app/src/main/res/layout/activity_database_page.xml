@@ -15,5 +15,6 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="61dp"
         android:layout_marginEnd="173dp"
-        android:text="Let's Add Some Data To The Realtime Database!" />
+        android:text="Let's Add Some Data To The Realtime Database!"
+        android:textColor="#FA450C" />
 </RelativeLayout>
