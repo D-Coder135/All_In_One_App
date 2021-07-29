@@ -9,12 +9,13 @@
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="58dp"
         android:layout_marginEnd="179dp"
-        android:text="Choose The Category Of Actions." />
+        android:text="Choose The Category Of Actions To Perform"
+        android:textSize="24sp" />
 </RelativeLayout>
