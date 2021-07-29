@@ -22,5 +22,6 @@ public class DatabasePage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_database_page);
         heading = findViewById(R.id.textView14);
+        nameField = findViewById(R.id.editText70);
     }
 }
