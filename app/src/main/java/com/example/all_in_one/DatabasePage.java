@@ -2,6 +2,7 @@ package com.example.all_in_one;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -58,7 +59,7 @@ public class DatabasePage extends AppCompatActivity {
         });
 
         continueButton.setOnClickListener(v -> {
-
+            Intent intent = new Intent(DatabasePage.this, HomePage.class);
         });
     }
 }
