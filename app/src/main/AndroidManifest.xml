@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.All_In_One">
-        <activity android:name=".ProximityPage"></activity>
+        <activity android:name=".ProximityBluetooth"></activity>
+        <activity android:name=".ProximityPage" />
         <activity android:name=".SensorPage" />
         <activity android:name=".HomePage" />
         <activity android:name=".OTP_Login_Page_2" />

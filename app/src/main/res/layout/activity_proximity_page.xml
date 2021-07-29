@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="318dp"
+        android:layout_marginTop="312dp"
         android:background="@drawable/otp_login_button"
         android:fontFamily="serif"
         android:text="Wifi"
