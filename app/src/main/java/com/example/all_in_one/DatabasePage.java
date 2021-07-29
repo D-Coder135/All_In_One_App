@@ -7,10 +7,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.google.firebase.database.FirebaseDatabase;
+
 public class DatabasePage extends AppCompatActivity {
     TextView heading;
     EditText nameField, emailField, passwordField, mobileField;
     Button updateButton, continueButton;
+    FirebaseDatabase firebaseDatabase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
