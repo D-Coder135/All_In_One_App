@@ -62,6 +62,6 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="243dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="Enter Your Phone Number"
+        android:inputType="textPersonName" />
 </RelativeLayout>
