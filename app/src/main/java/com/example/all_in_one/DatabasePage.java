@@ -43,6 +43,7 @@ public class DatabasePage extends AppCompatActivity {
         updateButton.setOnClickListener(v -> {
             databaseReference = firebaseDatabase.getReference("users");
             String name = nameField.getText().toString();
+            String email = emailField.getText().toString();
         });
     }
 }
