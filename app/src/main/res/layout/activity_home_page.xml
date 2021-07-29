@@ -11,12 +11,18 @@
         android:id="@+id/textView15"
         android:layout_width="match_parent"
         android:layout_height="76dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
-        android:layout_marginEnd="0dp"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="serif"
         android:text="Choose The Category Of Actions To Perform"
         android:textAlignment="center"
-        android:textSize="26sp" />
+        android:textAllCaps="true"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        android:typeface="monospace" />
 </RelativeLayout>
