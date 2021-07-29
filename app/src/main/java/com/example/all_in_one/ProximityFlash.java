@@ -1,5 +1,6 @@
 package com.example.all_in_one;
 
+import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -29,6 +30,12 @@ public class ProximityFlash extends AppCompatActivity implements SensorEventList
         sensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);
         sensor = sensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
         sensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_NORMAL);
+
+        backButton.setOnClickListener(v -> {
+            Intent intent = new Intent(ProximityFlash.this, ProximityPage.class);
+            startActivity(intent);
+            finish();
+        });
     }
 
     @Override
