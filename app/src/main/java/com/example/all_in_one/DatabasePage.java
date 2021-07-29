@@ -7,6 +7,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -29,5 +31,13 @@ public class DatabasePage extends AppCompatActivity {
         updateButton = findViewById(R.id.button70);
         continueButton = findViewById(R.id.button71);
         firebaseDatabase = FirebaseDatabase.getInstance();
+
+        YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
+        YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(nameField);
+        YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(emailField);
+        YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(passwordField);
+        YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(mobileField);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(updateButton);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(continueButton);
     }
 }
