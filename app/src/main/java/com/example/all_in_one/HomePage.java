@@ -18,6 +18,7 @@ public class HomePage extends AppCompatActivity {
         sensorButton = findViewById(R.id.button80);
         calculationButton = findViewById(R.id.button81);
         browserButton = findViewById(R.id.button82);
+        mediaButton = findViewById(R.id.button83);
 
     }
 }
