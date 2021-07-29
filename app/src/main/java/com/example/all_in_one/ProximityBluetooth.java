@@ -8,11 +8,13 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.widget.Button;
 
 public class ProximityBluetooth extends AppCompatActivity implements SensorEventListener {
     SensorManager sensorManager;
     Sensor sensor;
     BluetoothAdapter bluetoothAdapter;
+    Button backButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
