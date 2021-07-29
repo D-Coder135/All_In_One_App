@@ -31,8 +31,7 @@
         android:ems="10"
         android:hint="Enter Your Name"
         android:inputType="textPersonName"
-        android:textColor="#ECD7D7"
-        android:textColorHint="" />
+        android:textColorHint="#ECD7D7" />
 
     <EditText
         android:id="@+id/editText71"
