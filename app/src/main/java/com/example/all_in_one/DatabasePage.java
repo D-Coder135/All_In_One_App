@@ -41,7 +41,7 @@ public class DatabasePage extends AppCompatActivity {
         YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(continueButton);
 
         updateButton.setOnClickListener(v -> {
-
+            databaseReference = firebaseDatabase.getReference("users");
         });
     }
 }
