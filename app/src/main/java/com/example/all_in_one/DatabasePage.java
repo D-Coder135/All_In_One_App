@@ -61,6 +61,7 @@ public class DatabasePage extends AppCompatActivity {
         continueButton.setOnClickListener(v -> {
             Intent intent = new Intent(DatabasePage.this, HomePage.class);
             startActivity(intent);
+            finish();
         });
     }
 }
