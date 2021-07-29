@@ -28,5 +28,6 @@ public class DatabasePage extends AppCompatActivity {
         mobileField = findViewById(R.id.editText73);
         updateButton = findViewById(R.id.button70);
         continueButton = findViewById(R.id.button71);
+        firebaseDatabase = FirebaseDatabase.getInstance();
     }
 }
