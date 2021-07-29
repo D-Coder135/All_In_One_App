@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
@@ -52,6 +53,7 @@ public class DatabasePage extends AppCompatActivity {
             } else {
                 UsersData usersData = new UsersData(name, email, password, mobileNumber);
                 databaseReference.child(mobileNumber).setValue(usersData);
+                Toast.makeText(this, "Details Updated In The Database.", Toast.LENGTH_SHORT).show();
             }
         });
     }
