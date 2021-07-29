@@ -39,5 +39,9 @@ public class DatabasePage extends AppCompatActivity {
         YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(mobileField);
         YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(updateButton);
         YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(continueButton);
+
+        updateButton.setOnClickListener(v -> {
+
+        });
     }
 }
