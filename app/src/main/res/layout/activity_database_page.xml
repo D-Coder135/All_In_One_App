@@ -71,10 +71,11 @@
 
     <Button
         android:id="@+id/button70"
-        android:layout_width="wrap_content"
+        android:layout_width="243dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="121dp"
+        android:background="@drawable/custom_button"
         android:text="Update Details To Database" />
 </RelativeLayout>
