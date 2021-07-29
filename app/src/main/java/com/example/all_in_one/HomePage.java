@@ -32,5 +32,9 @@ public class HomePage extends AppCompatActivity {
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(mediaButton);
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(browserButton);
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(quizButton);
+
+        sensorButton.setOnClickListener(v -> {
+
+        });
     }
 }
