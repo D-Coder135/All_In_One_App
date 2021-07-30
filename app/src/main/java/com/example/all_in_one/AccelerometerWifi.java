@@ -2,6 +2,7 @@ package com.example.all_in_one;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -25,6 +26,12 @@ public class AccelerometerWifi extends AppCompatActivity implements SensorEventL
         sensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);
         sensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         sensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_NORMAL);
+
+        backButton.setOnClickListener(v -> {
+            Intent intent = new Intent(AccelerometerWifi.this, AccelerometerPage.class);
+            startActivity(intent);
+            finish();
+        });
     }
 
     @Override
