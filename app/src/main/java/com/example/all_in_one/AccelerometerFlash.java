@@ -39,6 +39,10 @@ public class AccelerometerFlash extends AppCompatActivity implements SensorEvent
         int x1 = (int)x;
         int y1 = (int)y;
         int z1 = (int)z;
+
+        if (x1 != 0 || y1 != 0 || z1 != 0) {
+
+        }
     }
 
     @Override
