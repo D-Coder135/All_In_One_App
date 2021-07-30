@@ -33,7 +33,9 @@ public class SensorPage extends AppCompatActivity {
         });
 
         accelerometerButton.setOnClickListener(v -> {
-
+            Intent intent = new Intent(SensorPage.this, AccelerometerPage.class);
+            startActivity(intent);
+            finish();
         });
     }
 }
