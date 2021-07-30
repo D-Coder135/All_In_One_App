@@ -2,6 +2,7 @@ package com.example.all_in_one;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
@@ -22,5 +23,17 @@ public class AccelerometerPage extends AppCompatActivity {
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(bluetoothButton);
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(wifiButton);
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(flashButton);
+
+        bluetoothButton.setOnClickListener(v -> {
+            Intent intent = new Intent(AccelerometerPage.this, AccelerometerBluetooth.class);
+            startActivity(intent);
+            finish();
+        });
+
+        wifiButton.setOnClickListener(v -> {
+            Intent intent = new Intent(AccelerometerPage.this, AccelerometerWifi.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
