@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.All_In_One">
-        <activity android:name=".ProximityFlash"></activity>
+        <activity android:name=".AccelerometerPage"></activity>
+        <activity android:name=".ProximityFlash" />
         <activity android:name=".ProximityWifi" />
         <activity android:name=".ProximityBluetooth" />
         <activity android:name=".ProximityPage" />
