@@ -3,6 +3,7 @@ package com.example.all_in_one;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -30,6 +31,12 @@ public class AccelerometerFlash extends AppCompatActivity implements SensorEvent
         sensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);
         sensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         sensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_NORMAL);
+
+        backButton.setOnClickListener(v -> {
+            Intent intent = new Intent(AccelerometerFlash.this, AccelerometerPage.class);
+            startActivity(intent);
+            finish();
+        });
     }
 
     @RequiresApi(api = Build.VERSION_CODES.M)
