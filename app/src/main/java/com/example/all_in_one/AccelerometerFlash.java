@@ -32,6 +32,7 @@ public class AccelerometerFlash extends AppCompatActivity implements SensorEvent
         sensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_NORMAL);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     public void onSensorChanged(SensorEvent event) {
         float x = event.values[0];
@@ -45,6 +46,13 @@ public class AccelerometerFlash extends AppCompatActivity implements SensorEvent
             try {
                 String cameraIdForFlashlight = cameraManager.getCameraIdList()[0];
                 cameraManager.setTorchMode(cameraIdForFlashlight, true);
+            } catch (CameraAccessException exception) {
+                System.out.println(exception);
+            }
+        } else {
+            try {
+                String cameraIdForFlashlight = cameraManager.getCameraIdList()[0];
+                cameraManager.setTorchMode(cameraIdForFlashlight, false);
             } catch (CameraAccessException exception) {
                 System.out.println(exception);
             }
