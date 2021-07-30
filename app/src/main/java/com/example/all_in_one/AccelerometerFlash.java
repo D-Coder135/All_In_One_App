@@ -1,20 +1,24 @@
 package com.example.all_in_one;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.hardware.Sensor;
+import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.hardware.camera2.CameraManager;
 import android.net.wifi.WifiManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.widget.Button;
 
-public class AccelerometerFlash extends AppCompatActivity {
+public class AccelerometerFlash extends AppCompatActivity implements SensorEventListener {
     Button backButton;
     SensorManager sensorManager;
     Sensor sensor;
     CameraManager cameraManager;
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
