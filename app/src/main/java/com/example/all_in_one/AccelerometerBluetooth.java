@@ -36,6 +36,11 @@ public class AccelerometerBluetooth extends AppCompatActivity implements SensorE
         int y1 = (int)y;
         int z1 = (int)z;
 
+        if (x1 != 0) {
+            bluetoothAdapter.enable();
+        } else {
+            bluetoothAdapter.disable();
+        }
     }
 
     @Override
