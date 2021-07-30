@@ -4,11 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.bluetooth.BluetoothAdapter;
 import android.hardware.Sensor;
+import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.widget.Button;
 
-public class AccelerometerBluetooth extends AppCompatActivity {
+public class AccelerometerBluetooth extends AppCompatActivity implements SensorEventListener {
     Button backButton;
     SensorManager sensorManager;
     Sensor sensor;
