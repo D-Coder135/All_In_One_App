@@ -35,5 +35,11 @@ public class AccelerometerPage extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        flashButton.setOnClickListener(v -> {
+            Intent intent = new Intent(AccelerometerPage.this, AccelerometerFlash.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
