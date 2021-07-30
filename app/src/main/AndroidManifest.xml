@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.All_In_One">
-        <activity android:name=".AccelerometerWifi"></activity>
+        <activity android:name=".AccelerometerFlash"></activity>
+        <activity android:name=".AccelerometerWifi" />
         <activity android:name=".AccelerometerBluetooth" />
         <activity android:name=".AccelerometerPage" />
         <activity android:name=".ProximityFlash" />
