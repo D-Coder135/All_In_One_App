@@ -29,7 +29,12 @@ public class AccelerometerWifi extends AppCompatActivity implements SensorEventL
 
     @Override
     public void onSensorChanged(SensorEvent event) {
-
+        float x = event.values[0];
+        float y = event.values[1];
+        float z = event.values[2];
+        int x1 = (int)x;
+        int y1 = (int)y;
+        int z1 = (int)z;
     }
 
     @Override
