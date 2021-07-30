@@ -7,6 +7,7 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.hardware.camera2.CameraAccessException;
 import android.hardware.camera2.CameraManager;
 import android.net.wifi.WifiManager;
 import android.os.Build;
@@ -41,7 +42,12 @@ public class AccelerometerFlash extends AppCompatActivity implements SensorEvent
         int z1 = (int)z;
 
         if (x1 != 0 || y1 != 0 || z1 != 0) {
-
+            try {
+                String cameraIdForFlashlight = cameraManager.getCameraIdList()[0];
+                cameraManager.setTorchMode(cameraIdForFlashlight, true);
+            } catch (CameraAccessException exception) {
+                System.out.println(exception);
+            }
         }
     }
 
