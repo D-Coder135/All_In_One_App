@@ -19,5 +19,9 @@ public class AccelerometerWifi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accelerometer_wifi);
         backButton = findViewById(R.id.button231);
+        wifiManager = (WifiManager)getApplicationContext().getSystemService(WIFI_SERVICE);
+        sensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);
+        sensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        sensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_NORMAL);
     }
 }
