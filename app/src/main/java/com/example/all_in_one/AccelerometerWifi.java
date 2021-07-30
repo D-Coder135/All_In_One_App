@@ -35,6 +35,8 @@ public class AccelerometerWifi extends AppCompatActivity implements SensorEventL
         int x1 = (int)x;
         int y1 = (int)y;
         int z1 = (int)z;
+
+        wifiManager.setWifiEnabled(x1 != 0 || y1 != 0 || z1 != 0);
     }
 
     @Override
