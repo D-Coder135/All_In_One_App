@@ -2,11 +2,13 @@ package com.example.all_in_one;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.widget.Button;
 
 public class MP3Player extends AppCompatActivity {
     Button playButton, pauseButton, stopButton, backButton;
+    MediaPlayer mediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
