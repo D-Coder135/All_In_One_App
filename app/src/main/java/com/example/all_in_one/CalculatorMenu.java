@@ -34,5 +34,7 @@ public class CalculatorMenu extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+
     }
 }
