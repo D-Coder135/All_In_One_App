@@ -19,6 +19,7 @@
         android:fontFamily="serif"
         android:text="Calculator Types"
         android:textAlignment="center"
+        android:textColor="#030A2E"
         android:textSize="34sp"
         android:textStyle="bold|italic"
         android:typeface="serif" />
