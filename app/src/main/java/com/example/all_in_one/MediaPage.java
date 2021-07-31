@@ -39,5 +39,11 @@ public class MediaPage extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        mp4PlayerButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MediaPage.this, MP4Player.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
