@@ -25,7 +25,7 @@
 
     <Button
         android:id="@+id/button163"
-        android:layout_width="wrap_content"
+        android:layout_width="263dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -40,4 +40,13 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="294dp"
         android:text="Calculator With Text To Speech" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="109dp"
+        android:text="Button" />
 </RelativeLayout>
