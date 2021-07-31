@@ -33,5 +33,9 @@ public class MediaPage extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        mp3PlayerButton.setOnClickListener(v -> {
+
+        });
     }
 }
