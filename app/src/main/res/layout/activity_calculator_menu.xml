@@ -30,7 +30,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="279dp"
-        android:text="Button" />
+        android:text="Simple Calculator" />
 
     <Button
         android:id="@+id/button164"
