@@ -40,7 +40,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="310dp"
-        android:text="Button" />
+        android:text="MP4 Player" />
 
     <Button
         android:id="@+id/button103"
