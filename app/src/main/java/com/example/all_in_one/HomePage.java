@@ -47,7 +47,9 @@ public class HomePage extends AppCompatActivity {
         });
 
         calculationButton.setOnClickListener(v-> {
-
+            Intent intent = new Intent(HomePage.this, CalculatorMenu.class);
+            startActivity(intent);
+            finish();
         });
     }
 }
