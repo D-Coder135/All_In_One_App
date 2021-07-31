@@ -45,5 +45,9 @@ public class HomePage extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        calculationButton.setOnClickListener(v-> {
+
+        });
     }
 }
