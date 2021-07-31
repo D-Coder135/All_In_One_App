@@ -19,6 +19,7 @@ public class MP4Player extends AppCompatActivity {
         playButton = findViewById(R.id.button150);
         stopButton = findViewById(R.id.button151);
         backButton = findViewById(R.id.button152);
+        videoView = findViewById(R.id.videoView);
         mediaController = new MediaController(this);
     }
 }
