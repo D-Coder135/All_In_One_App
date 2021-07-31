@@ -26,28 +26,31 @@
 
     <Button
         android:id="@+id/button101"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button"
         android:layout_marginTop="268dp"
         android:text="MP3 Player" />
 
     <Button
         android:id="@+id/button102"
-        android:layout_width="wrap_content"
+        android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="310dp"
+        android:background="@drawable/email_login_button"
         android:text="MP4 Player" />
 
     <Button
         android:id="@+id/button103"
-        android:layout_width="wrap_content"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="76dp"
+        android:background="@drawable/gmail_login_button"
         android:text="Button" />
 </RelativeLayout>
