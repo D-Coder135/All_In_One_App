@@ -30,15 +30,17 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="279dp"
+        android:background="@drawable/email_login_button"
         android:text="Simple Calculator" />
 
     <Button
         android:id="@+id/button164"
-        android:layout_width="wrap_content"
+        android:layout_width="277dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="294dp"
+        android:background="@drawable/otp_login_button"
         android:text="Calculator With Text To Speech" />
 
     <Button
@@ -46,6 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:background="@drawable/gmail_login_button"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="109dp"
         android:text="Back" />
