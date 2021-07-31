@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
+
 public class MediaPage extends AppCompatActivity {
     TextView heading;
     Button mp3PlayerButton, mp4PlayerButton, backButton;
@@ -18,6 +21,11 @@ public class MediaPage extends AppCompatActivity {
         mp3PlayerButton = findViewById(R.id.button101);
         mp4PlayerButton = findViewById(R.id.button102);
         backButton = findViewById(R.id.button103);
+
+        YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
+        YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(mp3PlayerButton);
+        YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(mp4PlayerButton);
+        YoYo.with(Techniques.FlipInY).duration(3500).repeat(0).playOn(backButton);
 
     }
 }
