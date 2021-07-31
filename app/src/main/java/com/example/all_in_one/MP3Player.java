@@ -29,5 +29,7 @@ public class MP3Player extends AppCompatActivity {
         });
 
         playButton.setOnClickListener(v -> mediaPlayer.start());
+
+        pauseButton.setOnClickListener(v -> mediaPlayer.pause());
     }
 }
