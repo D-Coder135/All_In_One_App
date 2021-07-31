@@ -14,10 +14,13 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="109dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="65dp"
+        android:fontFamily="serif"
         android:text="Media Types"
+        android:textAllCaps="false"
         android:textColor="#E40C0C"
         android:textSize="34sp"
-        android:textStyle="bold" />
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
 </RelativeLayout>
