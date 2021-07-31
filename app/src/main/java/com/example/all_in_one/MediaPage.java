@@ -31,6 +31,7 @@ public class MediaPage extends AppCompatActivity {
         backButton.setOnClickListener(v -> {
             Intent intent = new Intent(MediaPage.this, HomePage.class);
             startActivity(intent);
+            finish();
         });
     }
 }
