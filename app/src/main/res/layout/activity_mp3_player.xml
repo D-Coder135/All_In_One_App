@@ -8,7 +8,7 @@
     tools:context=".MP3Player">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button140"
         android:layout_width="176dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -19,7 +19,7 @@
         android:text="PLAY" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button141"
         android:layout_width="184dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -28,7 +28,7 @@
         android:text="PAUSE" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button142"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -37,7 +37,7 @@
         android:text="STOP" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button143"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
