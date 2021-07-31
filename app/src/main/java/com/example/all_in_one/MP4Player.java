@@ -28,5 +28,7 @@ public class MP4Player extends AppCompatActivity {
             mediaController.setAnchorView(videoView);
             videoView.start();
         });
+
+        stopButton.setOnClickListener(v -> videoView.stopPlayback());
     }
 }
