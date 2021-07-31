@@ -20,6 +20,7 @@ public class MP3Player extends AppCompatActivity {
         pauseButton = findViewById(R.id.button141);
         stopButton = findViewById(R.id.button142);
         backButton = findViewById(R.id.button143);
+        mediaPlayer = MediaPlayer.create(this, R.raw.believer);
 
         backButton.setOnClickListener(v -> {
             Intent intent = new Intent(MP3Player.this, MediaPage.class);
