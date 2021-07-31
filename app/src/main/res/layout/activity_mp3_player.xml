@@ -9,13 +9,14 @@
 
     <Button
         android:id="@+id/button140"
-        android:layout_width="176dp"
+        android:layout_width="184dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="196dp"
+        android:layout_marginTop="195dp"
         android:layout_marginEnd="116dp"
+        android:background="@drawable/signup_button"
         android:text="PLAY" />
 
     <Button
@@ -23,6 +24,7 @@
         android:layout_width="184dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:background="@drawable/otp_login_button"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="309dp"
         android:text="PAUSE" />
@@ -33,6 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:background="@drawable/login_button"
         android:layout_marginBottom="259dp"
         android:text="STOP" />
 
@@ -41,6 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:background="@drawable/email_login_button"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="44dp"
         android:text="BACK" />
