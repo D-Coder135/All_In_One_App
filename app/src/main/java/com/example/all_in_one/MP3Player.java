@@ -28,6 +28,6 @@ public class MP3Player extends AppCompatActivity {
             finish();
         });
 
-
+        playButton.setOnClickListener(v -> mediaPlayer.start());
     }
 }
