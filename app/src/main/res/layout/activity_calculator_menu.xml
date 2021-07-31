@@ -25,31 +25,38 @@
 
     <Button
         android:id="@+id/button163"
-        android:layout_width="263dp"
+        android:layout_width="289dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="279dp"
         android:background="@drawable/email_login_button"
-        android:text="Simple Calculator" />
+        android:text="Simple Calculator"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
 
     <Button
         android:id="@+id/button164"
-        android:layout_width="277dp"
+        android:layout_width="286dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="294dp"
         android:background="@drawable/otp_login_button"
-        android:text="Calculator With Text To Speech" />
+        android:text="Calculator With Text To Speech"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
 
     <Button
         android:id="@+id/button165"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/gmail_login_button"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="109dp"
-        android:text="Back" />
+        android:background="@drawable/gmail_login_button"
+        android:text="Back"
+        android:textStyle="bold|italic"
+        android:typeface="monospace" />
 </RelativeLayout>
