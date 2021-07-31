@@ -10,9 +10,12 @@ public class CalculatorMenu extends AppCompatActivity {
     TextView heading;
     Button simpleCalcButton, calcWithTTTButton, backButton;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculator_menu);
+        heading = findViewById(R.id.textView201);
+
     }
 }
