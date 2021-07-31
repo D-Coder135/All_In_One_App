@@ -16,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.All_In_One">
         <activity
+            android:name=".MP4Player"
+            android:exported="true" />
+        <activity
             android:name=".MP3Player"
             android:exported="true" />
         <activity
