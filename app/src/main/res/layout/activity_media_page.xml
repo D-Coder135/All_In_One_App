@@ -52,5 +52,5 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="76dp"
         android:background="@drawable/gmail_login_button"
-        android:text="Button" />
+        android:text="Back" />
 </RelativeLayout>
