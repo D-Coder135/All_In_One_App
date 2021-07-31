@@ -14,5 +14,10 @@ public class MediaPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_media_page);
+        heading = findViewById(R.id.textView100);
+        mp3PlayerButton = findViewById(R.id.button101);
+        mp4PlayerButton = findViewById(R.id.button102);
+        backButton = findViewById(R.id.button103);
+
     }
 }
