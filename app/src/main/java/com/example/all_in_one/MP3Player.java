@@ -24,6 +24,7 @@ public class MP3Player extends AppCompatActivity {
         backButton.setOnClickListener(v -> {
             Intent intent = new Intent(MP3Player.this, MediaPage.class);
             startActivity(intent);
+            finish();
         });
     }
 }
