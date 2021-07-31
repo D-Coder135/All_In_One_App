@@ -7,4 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".MP3Player">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="153dp"
+        android:text="Button" />
 </RelativeLayout>
