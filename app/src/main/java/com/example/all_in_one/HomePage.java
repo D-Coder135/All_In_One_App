@@ -39,5 +39,11 @@ public class HomePage extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        mediaButton.setOnClickListener(v -> {
+            Intent intent = new Intent(HomePage.this, MediaPage.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
