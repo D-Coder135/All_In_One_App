@@ -27,5 +27,9 @@ public class CalculatorMenu extends AppCompatActivity {
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(simpleCalcButton);
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(calcWithTTTButton);
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(backButton);
+
+        backButton.setOnClickListener(v -> {
+
+        });
     }
 }
