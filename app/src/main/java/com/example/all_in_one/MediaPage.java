@@ -27,5 +27,8 @@ public class MediaPage extends AppCompatActivity {
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(mp4PlayerButton);
         YoYo.with(Techniques.FlipInY).duration(3500).repeat(0).playOn(backButton);
 
+        backButton.setOnClickListener(v -> {
+
+        });
     }
 }
