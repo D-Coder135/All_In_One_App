@@ -25,6 +25,7 @@ public class MP4Player extends AppCompatActivity {
         playButton.setOnClickListener(v -> {
             videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.hall_of_fame);
             videoView.setMediaController(mediaController);
+            mediaController.setAnchorView(videoView);
         });
     }
 }
