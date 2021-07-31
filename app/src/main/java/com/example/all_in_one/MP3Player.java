@@ -14,5 +14,6 @@ public class MP3Player extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mp3_player);
+        playButton = findViewById(R.id.button140);
     }
 }
