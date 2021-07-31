@@ -16,6 +16,6 @@ public class CalculatorMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculator_menu);
         heading = findViewById(R.id.textView201);
-
+        simpleCalcButton = findViewById(R.id.button163);
     }
 }
