@@ -2,8 +2,10 @@ package com.example.all_in_one;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.widget.Button;
 
 public class MP3Player extends AppCompatActivity {
@@ -20,7 +22,7 @@ public class MP3Player extends AppCompatActivity {
         backButton = findViewById(R.id.button143);
 
         backButton.setOnClickListener(v -> {
-
+            Intent intent = new Intent(MP3Player.this, MediaPage.class);
         });
     }
 }
