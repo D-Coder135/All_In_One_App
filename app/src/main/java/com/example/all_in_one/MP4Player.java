@@ -2,6 +2,7 @@ package com.example.all_in_one;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.MediaController;
@@ -30,5 +31,11 @@ public class MP4Player extends AppCompatActivity {
         });
 
         stopButton.setOnClickListener(v -> videoView.stopPlayback());
+
+        backButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MP4Player.this, MediaPage.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
