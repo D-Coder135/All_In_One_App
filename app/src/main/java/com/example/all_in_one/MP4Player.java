@@ -16,5 +16,6 @@ public class MP4Player extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mp4_player);
+        playButton = findViewById(R.id.button150);
     }
 }
