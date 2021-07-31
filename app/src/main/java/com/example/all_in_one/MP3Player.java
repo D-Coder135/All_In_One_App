@@ -16,5 +16,6 @@ public class MP3Player extends AppCompatActivity {
         setContentView(R.layout.activity_mp3_player);
         playButton = findViewById(R.id.button140);
         pauseButton = findViewById(R.id.button141);
+        stopButton = findViewById(R.id.button142);
     }
 }
