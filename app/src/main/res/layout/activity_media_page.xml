@@ -31,7 +31,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="268dp"
-        android:text="Button" />
+        android:text="MP3 Player" />
 
     <Button
         android:id="@+id/button102"
