@@ -17,5 +17,6 @@ public class MP4Player extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mp4_player);
         playButton = findViewById(R.id.button150);
+        stopButton = findViewById(R.id.button151);
     }
 }
