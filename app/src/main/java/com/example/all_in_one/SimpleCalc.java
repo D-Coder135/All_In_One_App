@@ -38,14 +38,21 @@ public class SimpleCalc extends AppCompatActivity {
             String secondNumber = secondNumberField.getText().toString();
             Float firsNumberInFloat = Float.parseFloat(firstNumber);
             Float secondNumberInFloat = Float.parseFloat(secondNumber);
-            float resultInFloat = firsNumberInFloat - secondNumberInFloat;
+            float resultInFloat = firsNumberInFloat + secondNumberInFloat;
             String resultInString = Float.toString(resultInFloat);
             resultView.setText(resultInString);
             Toast.makeText(SimpleCalc.this, "The result is = " + resultInString, Toast.LENGTH_SHORT).show();
         });
 
         sub.setOnClickListener(v -> {
-
+            String firstNumber = firstNumberField.getText().toString();
+            String secondNumber = secondNumberField.getText().toString();
+            Float firsNumberInFloat = Float.parseFloat(firstNumber);
+            Float secondNumberInFloat = Float.parseFloat(secondNumber);
+            float resultInFloat = firsNumberInFloat - secondNumberInFloat;
+            String resultInString = Float.toString(resultInFloat);
+            resultView.setText(resultInString);
+            Toast.makeText(SimpleCalc.this, "The result is = " + resultInString, Toast.LENGTH_SHORT).show();
         });
     }
 }
