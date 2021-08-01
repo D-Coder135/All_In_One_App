@@ -24,5 +24,9 @@ public class Camera extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        cameraButton.setOnClickListener(v -> {
+
+        });
     }
 }
