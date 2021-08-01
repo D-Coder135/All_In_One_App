@@ -20,7 +20,9 @@
         android:hint="Enter First Number"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:textColor="#E4DEDE" />
+        android:textColorHint="@color/white"
+        android:textColor="#E4DEDE"
+        android:textStyle="bold|italic" />
 
     <EditText
         android:id="@+id/editText101"
@@ -34,5 +36,6 @@
         android:hint="Enter Second Number"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:textColor="#EFE9E9" />
+        android:textColor="#EFE9E9"
+        android:textStyle="bold|italic" />
 </RelativeLayout>
