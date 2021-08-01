@@ -19,7 +19,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Name" />
+        android:text="Name"
+        android:textColor="#E4DEDE" />
 
     <EditText
         android:id="@+id/editText101"
@@ -32,5 +33,6 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Name" />
+        android:text="Name"
+        android:textColor="#EFE9E9" />
 </RelativeLayout>
