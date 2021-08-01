@@ -26,5 +26,9 @@ public class CameraMenu extends AppCompatActivity {
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(imageCaptureButton);
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(videoRecorderButton);
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(backButton);
+
+        backButton.setOnClickListener(v -> {
+
+        });
     }
 }
