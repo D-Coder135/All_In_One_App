@@ -17,5 +17,6 @@ public class SimpleCalc extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_simple_calc);
         firstNumberField = findViewById(R.id.editText100);
+        secondNumberField = findViewById(R.id.editText101);
     }
 }
