@@ -8,6 +8,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
+
 import java.util.Locale;
 
 public class CalcWithTTT extends AppCompatActivity {
@@ -33,5 +36,13 @@ public class CalcWithTTT extends AppCompatActivity {
             textToSpeech.setLanguage(Locale.ENGLISH);
             textToSpeech.setSpeechRate(0.5f);
         });
+
+        YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(firstNumberField);
+        YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(secondNumberField);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(add);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(sub);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(mul);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(div);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(backButton);
     }
 }
