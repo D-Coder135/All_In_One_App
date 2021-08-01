@@ -51,6 +51,7 @@
         android:layout_marginBottom="336dp"
         android:textAlignment="center"
         android:textColor="#33F13A"
+        android:background="@drawable/offline_login_button"
         android:textSize="24sp"
         android:textStyle="bold|italic" />
 
@@ -60,6 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
+        android:background="@drawable/email_login_button"
         android:layout_marginStart="26dp"
         android:layout_marginBottom="253dp"
         android:text="+"
@@ -72,6 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:background="@drawable/gmail_login_button"
         android:layout_marginEnd="25dp"
         android:layout_marginBottom="254dp"
         android:text="-"
@@ -86,7 +89,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="27dp"
         android:layout_marginBottom="177dp"
-        android:text="x"
+        android:background="@drawable/otp_login_button"
+        android:text="*"
         android:textSize="24sp"
         android:textStyle="bold|italic" />
 
@@ -97,6 +101,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="26dp"
+        android:background="@drawable/custom_button"
         android:layout_marginBottom="177dp"
         android:text="/"
         android:textSize="24sp"
@@ -108,8 +113,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:background="@drawable/signup_button"
         android:layout_marginBottom="212dp"
-        android:text="=" />
+        android:text="="
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
 
     <Button
         android:id="@+id/button7"
@@ -118,5 +126,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="51dp"
-        android:text="Back" />
+        android:background="@drawable/login_button"
+        android:text="Back"
+        android:textStyle="bold|italic" />
 </RelativeLayout>
