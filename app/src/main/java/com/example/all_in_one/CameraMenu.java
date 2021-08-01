@@ -16,5 +16,6 @@ public class CameraMenu extends AppCompatActivity {
         setContentView(R.layout.activity_camera_menu);
         heading = findViewById(R.id.textView21);
         imageCaptureButton = findViewById(R.id.button800);
+        videoRecorderButton = findViewById(R.id.button801);
     }
 }
