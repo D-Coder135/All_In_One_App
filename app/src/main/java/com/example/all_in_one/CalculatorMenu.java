@@ -40,5 +40,11 @@ public class CalculatorMenu extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        calcWithTTTButton.setOnClickListener(v -> {
+            Intent intent = new Intent(CalculatorMenu.this, CalcWithTTT.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
