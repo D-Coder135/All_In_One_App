@@ -39,5 +39,11 @@ public class CameraMenu extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        videoRecorderButton.setOnClickListener(v -> {
+            Intent intent = new Intent(CameraMenu.this, VideoCamera.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
