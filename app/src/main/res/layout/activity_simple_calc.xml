@@ -20,9 +20,10 @@
         android:hint="Enter First Number"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:textColorHint="@color/white"
         android:textColor="#E4DEDE"
-        android:textStyle="bold|italic" />
+        android:textColorHint="@color/white"
+        android:textStyle="italic"
+        android:typeface="serif" />
 
     <EditText
         android:id="@+id/editText101"
@@ -32,11 +33,12 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="7dp"
         android:layout_marginTop="218dp"
-        android:textColorHint="@color/white"
         android:ems="10"
         android:hint="Enter Second Number"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColor="#EFE9E9"
-        android:textStyle="bold|italic" />
+        android:textColorHint="@color/white"
+        android:textStyle="italic"
+        android:typeface="serif" />
 </RelativeLayout>
