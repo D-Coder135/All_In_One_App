@@ -9,6 +9,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
+
 public class SimpleCalc extends AppCompatActivity {
     EditText firstNumberField, secondNumberField;
     Button add, sub, mul, div, backButton;
@@ -27,6 +30,14 @@ public class SimpleCalc extends AppCompatActivity {
         div = findViewById(R.id.button5);
         backButton = findViewById(R.id.button7);
         resultView = findViewById(R.id.textView20);
+
+        YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(firstNumberField);
+        YoYo.with(Techniques.Shake).duration(2500).repeat(0).playOn(secondNumberField);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(add);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(sub);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(mul);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(div);
+        YoYo.with(Techniques.FlipInX).duration(3000).repeat(0).playOn(backButton);
 
         backButton.setOnClickListener(v -> {
             Intent intent = new Intent(SimpleCalc.this, CalculatorMenu.class);
