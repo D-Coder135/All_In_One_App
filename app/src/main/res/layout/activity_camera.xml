@@ -25,5 +25,5 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="226dp"
-        android:text="Button" />
+        android:text="Open Camera" />
 </RelativeLayout>
