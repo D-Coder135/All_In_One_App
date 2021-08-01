@@ -3,6 +3,7 @@ package com.example.all_in_one;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.widget.Button;
 import android.widget.MediaController;
 import android.widget.VideoView;
@@ -28,6 +29,11 @@ public class VideoCamera extends AppCompatActivity {
             Intent intent = new Intent(VideoCamera.this, CameraMenu.class);
             startActivity(intent);
             finish();
+        });
+
+        videoButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
+            startActivityForResult(intent, 100);
         });
     }
 }
