@@ -53,7 +53,7 @@
         android:textAlignment="center"
         android:textColor="#33F13A"
         android:textSize="24sp"
-        android:textStyle="bold|italic" />
+        android:textStyle="italic" />
 
     <Button
         android:id="@+id/button"
