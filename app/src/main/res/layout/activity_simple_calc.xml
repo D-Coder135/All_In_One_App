@@ -128,5 +128,6 @@
         android:layout_marginBottom="51dp"
         android:background="@drawable/login_button"
         android:text="Back"
-        android:textStyle="bold|italic" />
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
 </RelativeLayout>
