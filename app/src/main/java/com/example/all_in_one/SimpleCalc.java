@@ -19,5 +19,6 @@ public class SimpleCalc extends AppCompatActivity {
         firstNumberField = findViewById(R.id.editText100);
         secondNumberField = findViewById(R.id.editText101);
         add = findViewById(R.id.button);
+        sub = findViewById(R.id.button3);
     }
 }
