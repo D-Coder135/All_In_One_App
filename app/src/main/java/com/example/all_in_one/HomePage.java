@@ -25,6 +25,7 @@ public class HomePage extends AppCompatActivity {
         mediaButton = findViewById(R.id.button83);
         phoneButton = findViewById(R.id.button84);
         quizButton = findViewById(R.id.button85);
+        backButton = findViewById(R.id.button86);
 
         YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(sensorButton);
