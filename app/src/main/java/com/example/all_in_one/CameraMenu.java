@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
+
 public class CameraMenu extends AppCompatActivity {
     TextView heading;
     Button imageCaptureButton, videoRecorderButton, backButton;
@@ -18,5 +21,10 @@ public class CameraMenu extends AppCompatActivity {
         imageCaptureButton = findViewById(R.id.button800);
         videoRecorderButton = findViewById(R.id.button801);
         backButton = findViewById(R.id.button802);
+
+        YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
+        YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(imageCaptureButton);
+        YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(videoRecorderButton);
+        YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(backButton);
     }
 }
