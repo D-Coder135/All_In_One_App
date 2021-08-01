@@ -49,7 +49,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="336dp"
-        android:text="Final Result = "
         android:textAlignment="center"
         android:textColor="#33F13A"
         android:textSize="24sp"

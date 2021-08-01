@@ -73,7 +73,7 @@ public class SimpleCalc extends AppCompatActivity {
             Float secondNumberInFloat = Float.parseFloat(secondNumber);
             float resultInFloat = firsNumberInFloat / secondNumberInFloat;
             String resultInString = Float.toString(resultInFloat);
-            resultView.setText(resultInString);
+            resultView.setText("Final Result = " +resultInString);
             Toast.makeText(SimpleCalc.this, "The result is = " + resultInString, Toast.LENGTH_SHORT).show();
         });
     }
