@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class VideoCamera extends AppCompatActivity {
     VideoView videoView;
-    Button cameraButton, backButton;
+    Button videoButton, backButton;
     MediaController mediaController;
     Uri uri;
 
@@ -19,5 +19,7 @@ public class VideoCamera extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video_camera);
         videoView = findViewById(R.id.videoView2);
+        videoButton = findViewById(R.id.button602);
+
     }
 }
