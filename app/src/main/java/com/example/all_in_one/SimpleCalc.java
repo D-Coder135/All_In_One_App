@@ -43,5 +43,9 @@ public class SimpleCalc extends AppCompatActivity {
             resultView.setText(resultInString);
             Toast.makeText(SimpleCalc.this, "The result is = " + resultInString, Toast.LENGTH_SHORT).show();
         });
+
+        sub.setOnClickListener(v -> {
+
+        });
     }
 }
