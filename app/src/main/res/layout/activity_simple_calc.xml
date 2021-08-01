@@ -50,5 +50,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="336dp"
         android:text="TextView"
-        android:textSize="20sp" />
+        android:textAlignment="center"
+        android:textColor="#33F13A"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
 </RelativeLayout>
