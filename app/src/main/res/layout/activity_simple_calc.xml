@@ -49,9 +49,9 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="336dp"
+        android:text="Final Result = "
         android:textAlignment="center"
         android:textColor="#33F13A"
-        android:background="@drawable/offline_login_button"
         android:textSize="24sp"
         android:textStyle="bold|italic" />
 
