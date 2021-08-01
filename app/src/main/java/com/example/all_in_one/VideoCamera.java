@@ -41,5 +41,11 @@ public class VideoCamera extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        uri = data.getData();
+
+        videoView.setVideoURI(uri);
+        videoView.setMediaController(mediaController);
+        mediaController.setAnchorView(videoView);
+        videoView.start();
     }
 }
