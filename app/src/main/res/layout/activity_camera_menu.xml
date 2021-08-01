@@ -15,11 +15,11 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="84dp"
-        android:layout_marginTop="63dp"
+        android:layout_marginTop="37dp"
         android:fontFamily="serif"
         android:text="Camera Menu"
         android:textAlignment="center"
-        android:textColor="#09B6A6"
+        android:textColor="#098EB6"
         android:textSize="34sp"
         android:textStyle="bold|italic"
         android:typeface="serif" />
