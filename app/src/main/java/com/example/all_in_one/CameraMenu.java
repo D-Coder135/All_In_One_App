@@ -2,6 +2,7 @@ package com.example.all_in_one;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
@@ -28,7 +29,9 @@ public class CameraMenu extends AppCompatActivity {
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(backButton);
 
         backButton.setOnClickListener(v -> {
-
+            Intent intent = new Intent(CameraMenu.this, HomePage.class);
+            startActivity(intent);
+            finish();
         });
     }
 }
