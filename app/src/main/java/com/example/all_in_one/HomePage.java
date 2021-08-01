@@ -59,5 +59,11 @@ public class HomePage extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        cameraButton.setOnClickListener(v-> {
+            Intent intent = new Intent(HomePage.this, CameraMenu.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
