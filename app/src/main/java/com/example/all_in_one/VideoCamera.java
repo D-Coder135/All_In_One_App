@@ -1,10 +1,14 @@
 package com.example.all_in_one;
 
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.VideoView;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
-
 public class VideoCamera extends AppCompatActivity {
+    VideoView videoView;
+    Button cameraButton, backButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
