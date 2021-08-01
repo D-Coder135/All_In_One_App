@@ -1,5 +1,6 @@
 package com.example.all_in_one;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Button;
@@ -22,5 +23,11 @@ public class VideoCamera extends AppCompatActivity {
         videoButton = findViewById(R.id.button602);
         backButton = findViewById(R.id.button603);
         mediaController = new MediaController(this);
+
+        backButton.setOnClickListener(v -> {
+            Intent intent = new Intent(VideoCamera.this, CameraMenu.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
