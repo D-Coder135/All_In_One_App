@@ -12,7 +12,7 @@ import com.daimajia.androidanimations.library.YoYo;
 
 public class HomePage extends AppCompatActivity {
     TextView heading;
-    Button sensorButton, mediaButton, calculationButton, phoneButton, browserButton, quizButton, backButton;
+    Button sensorButton, mediaButton, calculationButton, cameraButton, browserButton, quizButton, backButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,14 +23,14 @@ public class HomePage extends AppCompatActivity {
         calculationButton = findViewById(R.id.button81);
         browserButton = findViewById(R.id.button82);
         mediaButton = findViewById(R.id.button83);
-        phoneButton = findViewById(R.id.button84);
+        cameraButton = findViewById(R.id.button84);
         quizButton = findViewById(R.id.button85);
         backButton = findViewById(R.id.button86);
 
         YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(sensorButton);
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(calculationButton);
-        YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(phoneButton);
+        YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(cameraButton);
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(mediaButton);
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(browserButton);
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(quizButton);
