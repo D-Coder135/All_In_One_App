@@ -2,6 +2,7 @@ package com.example.all_in_one;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -24,5 +25,11 @@ public class SimpleCalc extends AppCompatActivity {
         div = findViewById(R.id.button5);
         backButton = findViewById(R.id.button7);
         resultView = findViewById(R.id.textView20);
+
+        backButton.setOnClickListener(v -> {
+            Intent intent = new Intent(SimpleCalc.this, CalculatorMenu.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
