@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.widget.Button;
 import android.widget.ImageView;
 
@@ -26,7 +27,7 @@ public class Camera extends AppCompatActivity {
         });
 
         cameraButton.setOnClickListener(v -> {
-
+            Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         });
     }
 }
