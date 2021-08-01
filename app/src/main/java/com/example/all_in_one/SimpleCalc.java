@@ -23,5 +23,6 @@ public class SimpleCalc extends AppCompatActivity {
         mul = findViewById(R.id.button4);
         div = findViewById(R.id.button5);
         backButton = findViewById(R.id.button7);
+        resultView = findViewById(R.id.textView20);
     }
 }
