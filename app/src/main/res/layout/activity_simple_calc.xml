@@ -17,9 +17,9 @@
         android:layout_marginStart="2dp"
         android:layout_marginTop="93dp"
         android:ems="10"
+        android:hint="Enter First Number"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Name"
         android:textColor="#E4DEDE" />
 
     <EditText
