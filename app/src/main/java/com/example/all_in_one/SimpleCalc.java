@@ -31,5 +31,9 @@ public class SimpleCalc extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        add.setOnClickListener(v -> {
+
+        });
     }
 }
