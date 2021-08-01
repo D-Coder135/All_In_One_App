@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.util.Locale;
+
 public class CalcWithTTT extends AppCompatActivity {
     EditText firstNumberField, secondNumberField;
     Button add, sub, mul, div, backButton;
@@ -26,5 +28,10 @@ public class CalcWithTTT extends AppCompatActivity {
         div = findViewById(R.id.button35);
         backButton = findViewById(R.id.button36);
         resultView = findViewById(R.id.textView21);
+
+        textToSpeech = new TextToSpeech(this, status -> {
+            textToSpeech.setLanguage(Locale.ENGLISH);
+            textToSpeech.setSpeechRate(0.5f);
+        });
     }
 }
