@@ -27,4 +27,13 @@
         android:layout_marginBottom="226dp"
         android:background="@drawable/gmail_login_button"
         android:text="Open Camera" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="87dp"
+        android:text="Button" />
 </RelativeLayout>
