@@ -21,5 +21,6 @@ public class VideoCamera extends AppCompatActivity {
         videoView = findViewById(R.id.videoView2);
         videoButton = findViewById(R.id.button602);
         backButton = findViewById(R.id.button603);
+        mediaController = new MediaController(this);
     }
 }
