@@ -3,8 +3,12 @@ package com.example.all_in_one;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class CameraMenu extends AppCompatActivity {
+    TextView heading;
+    Button imageCaptureButton, videoRecorderButton, backButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
