@@ -28,6 +28,7 @@ public class Camera extends AppCompatActivity {
 
         cameraButton.setOnClickListener(v -> {
             Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+            startActivityForResult(intent, 200);
         });
     }
 }
