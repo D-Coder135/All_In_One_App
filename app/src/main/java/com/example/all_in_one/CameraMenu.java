@@ -33,5 +33,11 @@ public class CameraMenu extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        imageCaptureButton.setOnClickListener(v -> {
+            Intent intent = new Intent(CameraMenu.this, Camera.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
