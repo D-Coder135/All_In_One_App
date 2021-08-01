@@ -12,7 +12,7 @@ import com.daimajia.androidanimations.library.YoYo;
 
 public class HomePage extends AppCompatActivity {
     TextView heading;
-    Button sensorButton, mediaButton, calculationButton, phoneButton, browserButton, quizButton;
+    Button sensorButton, mediaButton, calculationButton, phoneButton, browserButton, quizButton, backButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
