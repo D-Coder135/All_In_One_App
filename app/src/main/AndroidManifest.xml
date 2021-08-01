@@ -16,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.All_In_One">
         <activity
+            android:name=".CalcWithTTT"
+            android:exported="true" />
+        <activity
             android:name=".SimpleCalc"
             android:exported="true" />
         <activity
