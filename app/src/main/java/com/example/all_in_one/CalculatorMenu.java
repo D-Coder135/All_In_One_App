@@ -35,6 +35,10 @@ public class CalculatorMenu extends AppCompatActivity {
             finish();
         });
 
-
+        simpleCalcButton.setOnClickListener(v -> {
+            Intent intent = new Intent(CalculatorMenu.this, SimpleCalc.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
