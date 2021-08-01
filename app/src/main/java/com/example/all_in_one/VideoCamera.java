@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class VideoCamera extends AppCompatActivity {
@@ -35,5 +36,10 @@ public class VideoCamera extends AppCompatActivity {
             Intent intent = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
             startActivityForResult(intent, 100);
         });
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
     }
 }
