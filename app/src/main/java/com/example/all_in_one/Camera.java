@@ -15,5 +15,6 @@ public class Camera extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camera);
         imageView = findViewById(R.id.imageView);
+        cameraButton = findViewById(R.id.button600);
     }
 }
