@@ -31,8 +31,8 @@
         android:layout_marginStart="7dp"
         android:layout_marginTop="218dp"
         android:ems="10"
+        android:hint="Enter Second Number"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Name"
         android:textColor="#EFE9E9" />
 </RelativeLayout>
