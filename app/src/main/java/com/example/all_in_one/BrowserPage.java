@@ -19,5 +19,6 @@ public class BrowserPage extends AppCompatActivity {
         webView = findViewById(R.id.webView);
         editText = findViewById(R.id.editTextWeb);
         searchButton = findViewById(R.id.button820);
+        backButton = findViewById(R.id.button821);
     }
 }
