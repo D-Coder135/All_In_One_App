@@ -2,6 +2,7 @@ package com.example.all_in_one;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.webkit.WebView;
 import android.widget.Button;
@@ -20,5 +21,11 @@ public class BrowserPage extends AppCompatActivity {
         editText = findViewById(R.id.editTextWeb);
         searchButton = findViewById(R.id.button820);
         backButton = findViewById(R.id.button821);
+
+        backButton.setOnClickListener(v -> {
+            Intent intent = new Intent(BrowserPage.this, HomePage.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
