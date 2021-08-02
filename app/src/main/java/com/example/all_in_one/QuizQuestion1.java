@@ -17,6 +17,7 @@ public class QuizQuestion1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_question1);
+        question = findViewById(R.id.textView121);
         nextButton = findViewById(R.id.button830);
         firstOption = findViewById(R.id.radioButton);
         secondOption = findViewById(R.id.radioButton2);
