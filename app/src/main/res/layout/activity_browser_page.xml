@@ -44,6 +44,7 @@
         android:layout_marginBottom="245dp"
         android:ems="10"
         android:hint="Enter url to search"
+        android:textColorHint="@color/white"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColor="#F1E2E2" />
