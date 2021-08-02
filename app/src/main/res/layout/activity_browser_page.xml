@@ -17,4 +17,20 @@
         android:layout_marginStart="-2dp"
         android:layout_marginTop="23dp"
         android:layout_marginEnd="2dp" />
+
+    <Button
+        android:id="@+id/button820"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginBottom="164dp"
+        android:background="@drawable/offline_login_button"
+        android:text="Search"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
 </RelativeLayout>
