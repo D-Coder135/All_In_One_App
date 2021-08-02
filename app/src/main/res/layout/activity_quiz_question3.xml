@@ -26,4 +26,53 @@
         android:textStyle="bold|italic"
         android:typeface="sans" />
 
+    <RadioGroup
+        android:layout_width="351dp"
+        android:layout_height="216dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="211dp"
+        android:layout_marginEnd="4dp">
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Java"
+            android:textColor="#46F307"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Python"
+            android:textColor="#46F307"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Dart"
+            android:textColor="#46F307"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="C#"
+            android:textColor="#46F307"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
 </RelativeLayout>
