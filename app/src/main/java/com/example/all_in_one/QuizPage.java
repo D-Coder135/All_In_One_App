@@ -13,5 +13,6 @@ public class QuizPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_page);
         startButton = findViewById(R.id.button850);
+        backButton = findViewById(R.id.button851);
     }
 }
