@@ -44,10 +44,10 @@
         android:layout_marginBottom="245dp"
         android:ems="10"
         android:hint="Enter url to search"
-        android:textColorHint="@color/white"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:textColor="#F1E2E2" />
+        android:textColor="#1B1919"
+        android:textColorHint="@color/white" />
 
     <Button
         android:id="@+id/button821"
