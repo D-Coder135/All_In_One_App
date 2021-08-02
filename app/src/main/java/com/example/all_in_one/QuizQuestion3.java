@@ -16,5 +16,11 @@ public class QuizQuestion3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_question3);
+        question = findViewById(R.id.textView141);
+        nextButton = findViewById(R.id.button841);
+        firstOption = findViewById(R.id.radioButton7);
+        secondOption = findViewById(R.id.radioButton8);
+        thirdOption = findViewById(R.id.radioButton9);
+        fourthOption = findViewById(R.id.radioButton10);
     }
 }
