@@ -7,4 +7,37 @@
     android:background="@drawable/quizques"
     tools:context=".QuizResultPage">
 
+    <TextView
+        android:id="@+id/textView151"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="149dp"
+        android:layout_marginEnd="51dp"
+        android:fontFamily="serif"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#46F307"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/button851"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="176dp"
+        android:background="@drawable/otp_login_button"
+        android:text="Start Over"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
 </RelativeLayout>
