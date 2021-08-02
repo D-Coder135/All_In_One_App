@@ -12,5 +12,6 @@ public class QuizPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_page);
+        startButton = findViewById(R.id.button850);
     }
 }
