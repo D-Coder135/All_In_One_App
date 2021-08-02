@@ -1,9 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/quizques"
     android:layout_height="match_parent"
-    tools:context=".QuizQuestion2">
+    tools:context=".QuizQuestion1">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView131"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="149dp"
+        android:layout_marginEnd="51dp"
+        android:fontFamily="serif"
+        android:text="Q.2: React-Native is a framework of?"
+        android:textAlignment="center"
+        android:textColor="#F39797"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans" />
+
+    <RadioGroup
+        android:layout_width="354dp"
+        android:layout_height="177dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="218dp"
+        android:layout_marginEnd="2dp">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Java"
+            android:textColor="#46F307"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:minHeight="48dp"
+            android:text="Kotlin"
+            android:textColor="#46F307"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:minHeight="48dp"
+            android:text="HTML"
+            android:textColor="#46F307"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:minHeight="48dp"
+            android:text="JavaScript"
+            android:textColor="#46F307"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button831"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="176dp"
+        android:background="@drawable/otp_login_button"
+        android:text="Next Question"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+</RelativeLayout>
