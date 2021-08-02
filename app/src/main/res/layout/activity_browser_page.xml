@@ -4,6 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/web"
     tools:context=".BrowserPage">
 
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="382dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="2dp" />
 </RelativeLayout>
