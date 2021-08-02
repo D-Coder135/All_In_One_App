@@ -2,6 +2,7 @@ package com.example.all_in_one;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.RadioButton;
@@ -22,5 +23,16 @@ public class QuizQuestion2 extends AppCompatActivity {
         secondOption = findViewById(R.id.radioButton4);
         thirdOption = findViewById(R.id.radioButton5);
         fourthOption = findViewById(R.id.radioButton6);
+
+        nextButton.setOnClickListener(v -> {
+            if (fourthOption.isChecked()) {
+                ++QuizQuestion1.score;
+            } else {
+                --QuizQuestion1.score;
+            }
+            Intent intent = new Intent(QuizQuestion2.this, QuizQuestion3.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
