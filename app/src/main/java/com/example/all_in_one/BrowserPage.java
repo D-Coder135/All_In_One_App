@@ -18,5 +18,6 @@ public class BrowserPage extends AppCompatActivity {
         setContentView(R.layout.activity_browser_page);
         webView = findViewById(R.id.webView);
         editText = findViewById(R.id.editTextWeb);
+        searchButton = findViewById(R.id.button820);
     }
 }
