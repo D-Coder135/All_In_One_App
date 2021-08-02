@@ -16,5 +16,9 @@ public class QuizResultPage extends AppCompatActivity {
         setContentView(R.layout.activity_quiz_result_page);
         resultView = findViewById(R.id.textView151);
         startOver = findViewById(R.id.button851);
+
+        resultView.setText("Your Final Score Is = " +QuizQuestion1.score);
+
+
     }
 }
