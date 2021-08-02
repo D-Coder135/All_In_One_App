@@ -5,8 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.RadioButton;
+import android.widget.TextView;
 
 public class QuizQuestion1 extends AppCompatActivity {
+    TextView question;
     Button nextButton;
     RadioButton firstOption, secondOption;
     static int score = 0;
