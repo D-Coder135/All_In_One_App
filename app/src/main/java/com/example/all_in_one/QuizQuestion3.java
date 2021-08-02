@@ -7,6 +7,9 @@ import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
+
 public class QuizQuestion3 extends AppCompatActivity {
     TextView question;
     Button nextButton;
@@ -22,5 +25,8 @@ public class QuizQuestion3 extends AppCompatActivity {
         secondOption = findViewById(R.id.radioButton8);
         thirdOption = findViewById(R.id.radioButton9);
         fourthOption = findViewById(R.id.radioButton10);
+
+        YoYo.with(Techniques.RollIn).duration(2000).repeat(0).playOn(question);
+        YoYo.with(Techniques.FlipInX).duration(2500).repeat(0).playOn(nextButton);
     }
 }
