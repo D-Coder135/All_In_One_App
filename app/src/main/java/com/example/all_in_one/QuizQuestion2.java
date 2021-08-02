@@ -27,7 +27,7 @@ public class QuizQuestion2 extends AppCompatActivity {
         thirdOption = findViewById(R.id.radioButton5);
         fourthOption = findViewById(R.id.radioButton6);
 
-        YoYo.with(Techniques.RollIn).duration(2000).repeat(0).playOn(question);
+        YoYo.with(Techniques.RollIn).duration(1500).repeat(0).playOn(question);
         YoYo.with(Techniques.FlipInX).duration(2500).repeat(0).playOn(nextButton);
 
         nextButton.setOnClickListener(v -> {
