@@ -65,5 +65,11 @@ public class HomePage extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        browserButton.setOnClickListener(v-> {
+            Intent intent = new Intent(HomePage.this, BrowserPage.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
