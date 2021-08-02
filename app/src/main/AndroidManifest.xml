@@ -16,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.All_In_One">
         <activity
+            android:name=".BrowserPage"
+            android:exported="true" />
+        <activity
             android:name=".VideoCamera"
             android:exported="true" />
         <activity
