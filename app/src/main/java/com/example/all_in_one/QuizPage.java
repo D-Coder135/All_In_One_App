@@ -2,6 +2,7 @@ package com.example.all_in_one;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
@@ -20,5 +21,11 @@ public class QuizPage extends AppCompatActivity {
 
         YoYo.with(Techniques.FlipInX).duration(2800).repeat(0).playOn(startButton);
         YoYo.with(Techniques.FlipInX).duration(2800).repeat(0).playOn(backButton);
+
+        backButton.setOnClickListener(v -> {
+            Intent intent = new Intent(QuizPage.this, HomePage.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
