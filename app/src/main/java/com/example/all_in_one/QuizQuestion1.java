@@ -2,6 +2,7 @@ package com.example.all_in_one;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.RadioButton;
@@ -29,5 +30,17 @@ public class QuizQuestion1 extends AppCompatActivity {
 
         YoYo.with(Techniques.RollIn).duration(2000).repeat(0).playOn(question);
         YoYo.with(Techniques.FlipInX).duration(2500).repeat(0).playOn(nextButton);
+
+        nextButton.setOnClickListener(v -> {
+            score = 0;
+            if (firstOption.isChecked()) {
+                ++score;
+            } else {
+                --score;
+            }
+            Intent intent = new Intent(QuizQuestion1.this, QuizQuestion2.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
