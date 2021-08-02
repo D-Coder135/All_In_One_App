@@ -75,4 +75,18 @@
             android:textStyle="bold" />
     </RadioGroup>
 
+    <Button
+        android:id="@+id/button841"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="176dp"
+        android:background="@drawable/otp_login_button"
+        android:text="Submit"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
 </RelativeLayout>

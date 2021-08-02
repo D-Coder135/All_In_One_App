@@ -3,8 +3,14 @@ package com.example.all_in_one;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.RadioButton;
+import android.widget.TextView;
 
 public class QuizQuestion3 extends AppCompatActivity {
+    TextView question;
+    Button nextButton;
+    RadioButton firstOption, secondOption, thirdOption, fourthOption;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
