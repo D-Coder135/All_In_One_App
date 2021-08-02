@@ -28,5 +28,6 @@ public class QuizQuestion1 extends AppCompatActivity {
         secondOption = findViewById(R.id.radioButton2);
 
         YoYo.with(Techniques.RollIn).duration(2000).repeat(0).playOn(question);
+        YoYo.with(Techniques.FlipInX).duration(2500).repeat(0).playOn(nextButton);
     }
 }
