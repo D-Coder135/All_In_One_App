@@ -16,5 +16,6 @@ public class BrowserPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_browser_page);
+        webView = findViewById(R.id.webView);
     }
 }
