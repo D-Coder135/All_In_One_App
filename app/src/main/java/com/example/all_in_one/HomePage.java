@@ -71,5 +71,11 @@ public class HomePage extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        quizButton.setOnClickListener(v-> {
+            Intent intent = new Intent(HomePage.this, QuizPage.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
