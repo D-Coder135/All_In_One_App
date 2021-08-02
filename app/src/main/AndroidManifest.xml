@@ -16,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.All_In_One">
         <activity
+            android:name=".QuizQuestion2"
+            android:exported="true" />
+        <activity
             android:name=".QuizQuestion1"
             android:exported="true" />
         <activity
