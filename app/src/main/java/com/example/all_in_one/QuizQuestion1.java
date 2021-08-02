@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class QuizQuestion1 extends AppCompatActivity {
+    Button nextButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
