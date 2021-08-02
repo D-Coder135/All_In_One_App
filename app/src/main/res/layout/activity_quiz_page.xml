@@ -7,4 +7,20 @@
     android:background="@drawable/quiz"
     tools:context=".QuizPage">
 
+    <Button
+        android:id="@+id/button850"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/signup_button"
+        android:text="Start The Quiz"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
 </RelativeLayout>
