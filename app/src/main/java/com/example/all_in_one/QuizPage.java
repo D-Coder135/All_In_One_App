@@ -27,5 +27,11 @@ public class QuizPage extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        startButton.setOnClickListener(v -> {
+            Intent intent = new Intent(QuizPage.this, QuizQuestion1.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
