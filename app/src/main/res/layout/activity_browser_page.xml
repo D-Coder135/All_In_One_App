@@ -45,5 +45,6 @@
         android:ems="10"
         android:hint="Enter url to search"
         android:inputType="textPersonName"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        android:textColor="#F1E2E2" />
 </RelativeLayout>
