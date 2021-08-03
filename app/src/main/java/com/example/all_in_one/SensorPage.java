@@ -12,7 +12,7 @@ import com.daimajia.androidanimations.library.YoYo;
 
 public class SensorPage extends AppCompatActivity {
     TextView heading;
-    Button proximityButton, accelerometerButton;
+    Button proximityButton, accelerometerButton, backButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
