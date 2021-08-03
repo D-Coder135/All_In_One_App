@@ -41,7 +41,9 @@ public class SensorPage extends AppCompatActivity {
         });
 
         backButton.setOnClickListener(v -> {
-
+            Intent intent = new Intent(SensorPage.this, HomePage.class);
+            startActivity(intent);
+            finish();
         });
     }
 }
