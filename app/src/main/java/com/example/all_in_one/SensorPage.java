@@ -39,5 +39,9 @@ public class SensorPage extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        backButton.setOnClickListener(v -> {
+
+        });
     }
 }
