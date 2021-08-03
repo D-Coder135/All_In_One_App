@@ -21,6 +21,7 @@ public class SensorPage extends AppCompatActivity {
         heading = findViewById(R.id.textView16);
         proximityButton = findViewById(R.id.button57);
         accelerometerButton = findViewById(R.id.button58);
+        backButton = findViewById(R.id.button59);
 
         YoYo.with(Techniques.FlipInX).duration(1500).repeat(0).playOn(heading);
         YoYo.with(Techniques.FlipInY).duration(2800).repeat(0).playOn(proximityButton);
