@@ -3,13 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/custom_button.xml" value="0.37552083333333336" />
         <entry key="app/src/main/res/layout/activity_accelerometer_flash.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_browser_page.xml" value="0.35688405797101447" />
         <entry key="app/src/main/res/layout/activity_calc_with_ttt.xml" value="0.35733695652173914" />
         <entry key="app/src/main/res/layout/activity_calculator_menu.xml" value="0.34427083333333336" />
         <entry key="app/src/main/res/layout/activity_camera.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_camera_menu.xml" value="0.35643115942028986" />
+        <entry key="app/src/main/res/layout/activity_gmail_login_page.xml" value="0.23097826086956522" />
         <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/activity_login_menu.xml" value="0.23097826086956522" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.359375" />
         <entry key="app/src/main/res/layout/activity_media_page.xml" value="0.22730263157894737" />
         <entry key="app/src/main/res/layout/activity_mp3_player.xml" value="0.35989583333333336" />
