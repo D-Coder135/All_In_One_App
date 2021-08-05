@@ -41,5 +41,11 @@ public class AccelerometerPage extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        backButton.setOnClickListener(v -> {
+            Intent intent = new Intent(AccelerometerPage.this, SensorPage.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
