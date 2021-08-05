@@ -41,5 +41,11 @@ public class ProximityPage extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        backButton.setOnClickListener(v -> {
+            Intent intent = new Intent(ProximityPage.this, SensorPage.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
