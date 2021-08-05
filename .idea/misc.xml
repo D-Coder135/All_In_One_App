@@ -10,6 +10,7 @@
         <entry key="app/src/main/res/layout/activity_calculator_menu.xml" value="0.34427083333333336" />
         <entry key="app/src/main/res/layout/activity_camera.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_camera_menu.xml" value="0.35643115942028986" />
+        <entry key="app/src/main/res/layout/activity_database_page.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_email_login_page.xml" value="0.23097826086956522" />
         <entry key="app/src/main/res/layout/activity_email_sign_up_page.xml" value="0.23097826086956522" />
         <entry key="app/src/main/res/layout/activity_gmail_login_page.xml" value="0.35989583333333336" />
@@ -22,6 +23,8 @@
         <entry key="app/src/main/res/layout/activity_offline_login_page.xml" value="0.23097826086956522" />
         <entry key="app/src/main/res/layout/activity_otp_login_page.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_otp_login_page2.xml" value="0.35989583333333336" />
+        <entry key="app/src/main/res/layout/activity_proximity_flash.xml" value="0.35989583333333336" />
+        <entry key="app/src/main/res/layout/activity_proximity_page.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_quiz_page.xml" value="0.358695652173913" />
         <entry key="app/src/main/res/layout/activity_quiz_question1.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_quiz_question2.xml" value="0.35989583333333336" />
