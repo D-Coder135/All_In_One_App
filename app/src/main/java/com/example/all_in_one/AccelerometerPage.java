@@ -10,7 +10,7 @@ import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
 
 public class AccelerometerPage extends AppCompatActivity {
-    Button bluetoothButton, wifiButton, flashButton;
+    Button bluetoothButton, wifiButton, flashButton, backButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
