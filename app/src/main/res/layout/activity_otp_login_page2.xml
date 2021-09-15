@@ -19,6 +19,7 @@
         android:layout_marginEnd="0dp"
         android:ems="10"
         android:hint="Enter The OTP"
+        android:textColor="@color/black"
         android:inputType="textPersonName"
         android:textColorHint="@color/black" />
 
