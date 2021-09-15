@@ -58,4 +58,14 @@
         android:textColor="#E6DBDB"
         android:textSize="20sp" />
 
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp"
+        android:background="@drawable/otp_login_button"
+        android:text="BACK" />
+
 </RelativeLayout>
