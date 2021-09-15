@@ -17,8 +17,9 @@
         android:layout_marginTop="220dp"
         android:ems="10"
         android:hint="Enter Your Email"
-        android:textColorHint="@color/black"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="@color/black" />
 
     <EditText
         android:id="@+id/editText11"
@@ -29,8 +30,9 @@
         android:layout_marginBottom="318dp"
         android:ems="10"
         android:hint="Enter Your Password"
-        android:textColorHint="@color/black"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="@color/black" />
 
     <Button
         android:id="@+id/button25"
@@ -38,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="160dp"
+        android:layout_marginBottom="211dp"
         android:background="@drawable/login_button"
         android:text="LOGIN"
         android:textAlignment="center"
@@ -53,11 +55,21 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="45dp"
+        android:layout_marginBottom="88dp"
         android:background="@drawable/signup_button"
         android:text="Create An Account"
         android:textColor="#E6DFDF"
         android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/otp_login_button"
+        android:text="BACK" />
 
     <TextView
         android:id="@+id/textView7"
@@ -65,7 +77,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="110dp"
+        android:layout_marginBottom="156dp"
         android:fontFamily="sans-serif-black"
         android:text="OR"
         android:textAlignment="center"
