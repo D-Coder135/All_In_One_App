@@ -1,4 +1,4 @@
-# Encapsulated(All_In_One) App📸📹🎶🔦➕✖
+# All_In_One(Encapsulated) App📸📹🎶🔦➕✖
 
 ## My Goal
 
